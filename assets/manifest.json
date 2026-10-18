@@ -1,0 +1,1089 @@
+{
+  "schemaVersion": 1,
+  "product": "BOWLER TEST",
+  "created": "2026-10-16",
+  "brand": "public/assets/brand/bowler-test-logo.png",
+  "characterReference": "assets/sources/character/reference/bowler-approved.png",
+  "animationMetadata": "data/animations/bowler.json",
+  "assets": [
+    {
+      "path": "assets/archive/brand/bowler-test-logo-v4.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 435366,
+      "sha256": "cf8166cb64f0eb886b7a592e11469f015920c52cd66646d648c5079e017423a6",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/brand/bowler-test-logo-v5-test-acima.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 472406,
+      "sha256": "d271efdb7a622ab454cb92c50dccbab33034ee5ed3cd0b8afbe2d589f5e5f54c",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/brand/bowler-test-logo-v6-sobreposto.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 527320,
+      "sha256": "1340bbcb10b8dd3eccc80ecd5043a9e51bfaa083fc4c6f6440b0fb82d423af68",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/brand/bowler-test-logo-v7-verde-limpo.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 658371,
+      "sha256": "f3ef00d902daa15a8e0b96cf778e02c3101070b71c2f96f4464e011818e3c765",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/brand/bowler-test-logo-v8-sombra-surreal.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 481446,
+      "sha256": "ec7247724769dc11580ee8cd47d6e8d86aee1477d7ea71d562f66652b600da9b",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/brand/bowler-test-logo-v9-luz-sombra.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 676131,
+      "sha256": "15a33a885d4b56ff437c4d3a1d162d4d8856bc393ff353e5ea69643f8cf2cf63",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/brand/browler-test-logo-v1.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 1855028,
+      "sha256": "a049ab51a368a1f892817ae5dcdd2ff73f28b2da0eb6161f5852049de16b34f2",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/brand/browler-test-logo-v2-minimalista.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 325591,
+      "sha256": "61d32579fdd33e20c203a9c468e9bec8b1fc3bb68678d3530d9f2ae35915c15b",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/brand/browler-test-logo-v3-sem-chapeu.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 440429,
+      "sha256": "c267851bbba81eeedf2097f7365014123e196460c07a0706489bebfae96f0be7",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/archive/character/browler-caminhada-estudo-v1.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 2123742,
+      "sha256": "ab4289f0ff1d968386b92981ae71e85e9e597dca6838d68b35b084e73956f11e",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/archive/character/browler-conceito-v1.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 2092518,
+      "sha256": "58f402be90c61db46b64598ad586eff9a84d01a10743274abb02bd50481f8c5f",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/archive/character/browler-conceito-v2.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 2021306,
+      "sha256": "32e36864a6d52a0c7ef10c83d716a99f8489ed52ec9d77af186fcb2681d718cb",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/archive/character/browler-conceito-v3.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 1940604,
+      "sha256": "fe0c13df5032707ef46620135d1587fa68543ab993724e2b3a9f6cd1c9e5d9de",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/archive/character/browler-conceito-v4-branco-vermelho.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 2009684,
+      "sha256": "9d17c183bdb668c11418d73c2340bea15c6224a06f11e1326a103b859a412acf",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/archive/character/browler-conceito-v5-preto-vermelho.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 2094385,
+      "sha256": "bf78236f7f94e46f7980d1a8e717fc3cd8710136333d7885890f5b11f3401356",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/archive/character/browler-conceito-v6-camisa-branca.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 1995459,
+      "sha256": "e96c04ee9711907f2db48e019a2f856048e0c4e70e0758a40a35b9676a5bdef0",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/archive/character/browler-conceito-v7-verde.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 1916564,
+      "sha256": "53fb6b620425ed4e75799ea685d112e01de078b0267efb9919e788dcb0c9c228",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/archive/character/browler-conceito-v8-camisa-verde.png",
+      "status": "historical-do-not-integrate",
+      "bytes": 1842877,
+      "sha256": "5532d1c4663328ff606d27623b3be4026646af069a346901eec40177cbe667eb",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/previews/logo-on-light.jpg",
+      "status": "inspection-only",
+      "bytes": 72735,
+      "sha256": "b794fa89e0cdc485a4b4059a600d59bd49af1c0730c4824f721f462eb6cdd412",
+      "width": 1802,
+      "height": 928,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/previews/logo-on-white.jpg",
+      "status": "inspection-only",
+      "bytes": 73360,
+      "sha256": "1375f78a56d1fc3227833dbaec6cd216d63883aa11444f3172fb0e0d678a1709",
+      "width": 1802,
+      "height": 928,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/previews/walk-back-candidate.gif",
+      "status": "inspection-only",
+      "bytes": 255959,
+      "sha256": "be366c6457ed680e1db440333b1d514065a424602ae1941bbe87ce0134dec42a",
+      "width": 256,
+      "height": 320,
+      "mode": "P"
+    },
+    {
+      "path": "assets/previews/walk-contact-sheet.jpg",
+      "status": "inspection-only",
+      "bytes": 128559,
+      "sha256": "a7e1dc381ede2c7f816eccc5c97c16a1d4beeb46deee7a9b462b9bca7ad61ae6",
+      "width": 1024,
+      "height": 1440,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/previews/walk-front-candidate.gif",
+      "status": "inspection-only",
+      "bytes": 255544,
+      "sha256": "49b7caa84bfd6184ab5a72c4edef6b52dd956bae5aa22ce6ba5e0149bda476fb",
+      "width": 256,
+      "height": 320,
+      "mode": "P"
+    },
+    {
+      "path": "assets/previews/walk-left-candidate.gif",
+      "status": "inspection-only",
+      "bytes": 248550,
+      "sha256": "1488ab1ec504e31af879e2a8ded95b4ce9fba829256af8731c34e512b06e8811",
+      "width": 256,
+      "height": 320,
+      "mode": "P"
+    },
+    {
+      "path": "assets/previews/walk-right-candidate.gif",
+      "status": "inspection-only",
+      "bytes": 237620,
+      "sha256": "9b1c14d9d8237af033ed9f61e2814981b5a418c10e98c4e4d091336c031502b1",
+      "width": 256,
+      "height": 320,
+      "mode": "P"
+    },
+    {
+      "path": "assets/sources/audio/the-case-of-the-missing-note.mp3",
+      "status": "license-unconfirmed-do-not-publish",
+      "bytes": 3612329,
+      "sha256": "daf1f5b45732bd3998f9fc3264e66b90b6f929b50caf090740fde3053f687a3d"
+    },
+    {
+      "path": "assets/sources/brand/bowler-test-approved.png",
+      "status": "source-do-not-edit",
+      "bytes": 672673,
+      "sha256": "bbd0108016c8af35282837572bfb5e0bab933a2e4578b49f7e722dca1ebdbe7f",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/character/idle/front-back-original.png",
+      "status": "source-do-not-edit",
+      "bytes": 2324917,
+      "sha256": "9752863dae75b133361daa52da5f1a4b851fefbbe1452d0a2ce4ca492b8a7a25",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/character/reference/bowler-approved.png",
+      "status": "source-do-not-edit",
+      "bytes": 1850986,
+      "sha256": "c01c8fc789bf565f2592e317bc043d448ff394ecc0c5eacb21330c09fe9a0f9c",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/sources/character/walk/walk-back-original.png",
+      "status": "source-do-not-edit",
+      "bytes": 2091212,
+      "sha256": "b437b3ca53482aed5cf29e8c603b6cbf2901dd09a4ae87d648320b701232c9e9",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/character/walk/walk-front-original.png",
+      "status": "source-do-not-edit",
+      "bytes": 2033862,
+      "sha256": "d40d3421ced52b5a38474af7b655c484d65dc382a52301b54da5c3dc0c219fe9",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/character/walk/walk-left-original.png",
+      "status": "source-do-not-edit",
+      "bytes": 2153354,
+      "sha256": "35775079dc9bf3556498c7071d7f96ed7c10f38cbe8943806aa6ac2cd08ba5a7",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/character/walk/walk-right-original.png",
+      "status": "source-do-not-edit",
+      "bytes": 2025876,
+      "sha256": "1683e761e8a1d038ca1096ea4f652273818e396845bb90570ed104815e3a0683",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/back/frame-00.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 67503,
+      "sha256": "b074503be3c9d3c941b228fc8d2b44c6257269a0bbc8a382f7a99d95915c5b63",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/back/frame-01.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 66787,
+      "sha256": "ff60de1d9ab841f7d8db85d3515f1e498e0e945f869cfb8dcb10d92075669965",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/back/frame-02.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 65019,
+      "sha256": "eff10e303a7bde3c15806dfed9736f8f8b0683b344be46247498f9bcaca57ab8",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/back/frame-03.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 66488,
+      "sha256": "911d88dfaf38688564bd4213f669d98b99f16fa69c5db0c60ed3c899539cdff1",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/back/frame-04.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 69131,
+      "sha256": "69cb9208d0038fb929183d9dde26bf962078926b681172a6e6bb1532e6786ddd",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/back/frame-05.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 66561,
+      "sha256": "b7b608a55c1daaa405725d046b60bfd46be51361cf6c302480cecec567e311ab",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/back/frame-06.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 66641,
+      "sha256": "dbbb4a7f98474a8dfe2769f74dc3de1011d373f72e143c04821112c8c077ec08",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/back/frame-07.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 66563,
+      "sha256": "6f1d11e869777dc46085d4c5b9a0979f8d472ba8a3aa7c296b12e98bd0c4af4a",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/front/frame-00.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 69828,
+      "sha256": "d31a87a1a0b66399d7b91873244de1feeb7eb048626d13868aa94d16f3f2e2f4",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/front/frame-01.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 68334,
+      "sha256": "4f47ecdf0893ae75487bc8f6e22e58977bb614dc76daa934ed70e182e7fc33bc",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/front/frame-02.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 68466,
+      "sha256": "3546711e0d917f95d8991d0e6dab92a2c99401c282a17ef8dfd45123601ecf69",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/front/frame-03.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 67744,
+      "sha256": "e5ebfbab1079c672edbb36f0ebeba606f09f4a779bc4ec2e660c66196d728aba",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/front/frame-04.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 69834,
+      "sha256": "f3825c2592d08d805a030de5e0c8d284d22644e8236744ab3939851927cb50ba",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/front/frame-05.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 68129,
+      "sha256": "7b5f9acb3dc71a633833033ec7b339c51c9aec01cb71f21c95df975918f09ef7",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/front/frame-06.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 67455,
+      "sha256": "a5ef9be251c874e76daaec31608327757fd442d5626adabf0e682c69d6b32d63",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/front/frame-07.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 66338,
+      "sha256": "e78b7808bf8d3314f88dce5eff3c59f2ce84b3eed787d188efe5a1bb84d4d9b7",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/left/frame-00.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 71410,
+      "sha256": "65d62655a1b981ef9afd6321adbaa15303d18d9fa0e5b1bc3cbb1b3add336e57",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/left/frame-01.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 67969,
+      "sha256": "25cab2908dba6e8ea4bb02e0d6b7aac19178cfd8c2948290deabf93edc680e24",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/left/frame-02.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 64530,
+      "sha256": "1a7b327e5804070fb8f5575007746d0a6675e7b336cd0cd14cad8fa3b6db24f4",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/left/frame-03.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 68752,
+      "sha256": "5c8d1d56ab6af3a4248e0a4d239fb5d2068f41be0928ad53709e6404c5c72cc6",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/left/frame-04.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 72537,
+      "sha256": "cb148ddf557306d282d9b1c8f77d553cf02faddff523aeb17eb190d5b7cb06bc",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/left/frame-05.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 68558,
+      "sha256": "0fc1e569ca91f8107a69c80682c9f73ecc5bbcdb0a57e5e28176554f3222c284",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/left/frame-06.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 65197,
+      "sha256": "1b8b5c887388aa9c673d02f84debf2febc6f709fd021274c37e47a601b4f4f0b",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/left/frame-07.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 69405,
+      "sha256": "a492ddba639042e959b0a3c01a097ae643c4b1e3a67a0bc234bbc9c049561249",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/right/frame-00.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 73712,
+      "sha256": "87d1221e16ba06cbc79a2685b9d9d79eab79a84b44b349fe8af3915804f2ec93",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/right/frame-01.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 66238,
+      "sha256": "1f49abc5ca6d9aca5d4c9d1a1d3b7de5bb9b127d5fd3a586852349a6d9f88305",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/right/frame-02.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 58697,
+      "sha256": "71d36451439cac2850e7232d326baaa42fe900d8fc168d22cf440c386c825213",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/right/frame-03.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 66133,
+      "sha256": "0e24cd994d3796cae834a1d56db4499d2af7fabf90b88ddc0cf2f5ba6b25e838",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/right/frame-04.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 71946,
+      "sha256": "c9ff8893e7207b32f536add4a6052786a91d1f98f0e4a294784da419697ac4c2",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/right/frame-05.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 65489,
+      "sha256": "1003e9fc31e57023b5ad1329731dd81c569b67cc29f65a720e50a5279f0552c7",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/right/frame-06.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 58005,
+      "sha256": "417ce5f3cb43d4580116d4ff36579f5b34c9de962a04fa64eeca560ad78becf3",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/right/frame-07.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 67389,
+      "sha256": "038a6b288039a363dcc04e42102c345db6168c712576946231d9b9961e8d54c8",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/walk-back.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 522836,
+      "sha256": "342fa58137b00ab1d14860f945fe505032c8e93c62b81f96f6868c0140a40fd7",
+      "width": 2048,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/walk-front.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 529357,
+      "sha256": "cb5e6ec4dd28f7c02c8583f6562b0814eb25251db912c1962f4735b28c8c5697",
+      "width": 2048,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/walk-left.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 532862,
+      "sha256": "34f137274557940e7a93cafc4ca05d75016b3e0db93366d7ec2e4019d6b3e81b",
+      "width": 2048,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/staging/character/walk/walk-right.png",
+      "status": "candidate-not-motion-approved",
+      "bytes": 512782,
+      "sha256": "a67592b40d595d33c3d7a251452ade94c87a6c7f570b98db25299b4efab5eb87",
+      "width": 2048,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/brand/bowler-test-logo.png",
+      "status": "latest-design-awaiting-final-signoff",
+      "bytes": 600837,
+      "sha256": "8c8610cc7d8e1db69c1d3e83f1a3d545151e7ed1d2eb1eee1854f464aa87075b",
+      "width": 1722,
+      "height": 848,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/characters/bowler/idle/back.png",
+      "status": "prepared-static-pose",
+      "bytes": 65863,
+      "sha256": "63f54f480f7ef94341eed127f1e3c21488a3e29869b220d36c1f57fd08ebf1d5",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/characters/bowler/idle/front.png",
+      "status": "prepared-static-pose",
+      "bytes": 70156,
+      "sha256": "1d8831db48679fd91bee68ecabdb0d4c38fdf0aab137f20fc45fe131ebb96777",
+      "width": 256,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/environments/portals/abstract.png",
+      "status": "original-generated-portal-grounded",
+      "bytes": 1678153,
+      "sha256": "6855363448c4b234ae12b9e9d6ce1ff9c8458bbd11c21f17502a76ba3740322e",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/environments/portals/convergent.png",
+      "status": "original-generated-portal-grounded",
+      "bytes": 1761265,
+      "sha256": "aa7cb9bc331d4a1d3a67b76c69d9c5cb29b968504e92b3e8c72afb475159116e",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/environments/portals/divergent.png",
+      "status": "original-generated-portal-grounded",
+      "bytes": 1643574,
+      "sha256": "e624bf5463f21643b5f068d69ed002f1d7b4a419af3e133f77878897ce5a9cb8",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/environments/portals/memory.png",
+      "status": "original-generated-portal-grounded",
+      "bytes": 1726956,
+      "sha256": "06f1c327ffa936666b9c182fed4a26664feebbfc5aed1490b1bb8cc0cbbc12b1",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/environments/portals/numerical.png",
+      "status": "frontal-composite-grounded",
+      "bytes": 1551154,
+      "sha256": "9652fe09bd4956aa247d71c3bbd1bfde9a8a9006147a3e92412ff3c7b4f8c2a9",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/environments/portals/personality.png",
+      "status": "frontal-composite-grounded",
+      "bytes": 1676329,
+      "sha256": "f17004a4ee3e7a1bf178b3fde27959444c708f44a58590d9e364c76f44be9281",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/environments/portals/spatial.png",
+      "status": "frontal-composite-grounded",
+      "bytes": 1819119,
+      "sha256": "0c8120e36e4cb1a1ad7adece414ab44bbc1a7f7c43e28d6e63eca36bf40413b6",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/environments/portals/verbal.png",
+      "status": "frontal-composite-grounded",
+      "bytes": 1739351,
+      "sha256": "a2e4725e44d2140b631e4df863f28dfc85772fba95be4afb405226a2fe3cd9b6",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "The Case of the Missing Note.mp3",
+      "status": "license-unconfirmed-do-not-publish",
+      "bytes": 3612329,
+      "sha256": "daf1f5b45732bd3998f9fc3264e66b90b6f929b50caf090740fde3053f687a3d"
+    },
+    {
+      "path": "assets/sources/portals/abstract.png",
+      "status": "original-generated-portal-source-preserved",
+      "bytes": 2093829,
+      "sha256": "fd272a95b26146de0063b1945f49a28e50c9822e0eb683fd46cde9b2bb641c3e",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/portals/verbal.png",
+      "status": "original-generated-portal-source-preserved",
+      "bytes": 1905467,
+      "sha256": "635e66e6165b2b0110dbce42af056dd1546a8f3811e1f6872599fd65d66f757b",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/portals/numerical.png",
+      "status": "original-generated-portal-source-preserved",
+      "bytes": 1900959,
+      "sha256": "547edf6417955b39d6c2118de11e942020df96308679ba007681430b3b48f271",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/portals/spatial.png",
+      "status": "original-generated-portal-source-preserved",
+      "bytes": 2252357,
+      "sha256": "c56b7acd766c2ed0fbdb55330519946e710b498696d9ab53c7a68e329cd8b6b8",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/portals/memory.png",
+      "status": "original-generated-portal-source-preserved",
+      "bytes": 2032507,
+      "sha256": "073e7b160bda55e7a374f4923931fe5de04cb58b13e99017f834a96eae7f1743",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/portals/divergent.png",
+      "status": "original-generated-portal-source-preserved",
+      "bytes": 2066102,
+      "sha256": "334c88985e4d6d2009a6d8fee380e2734ea164bf24e4427083674a26af38a8aa",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/portals/convergent.png",
+      "status": "original-generated-portal-source-preserved",
+      "bytes": 2050567,
+      "sha256": "99bc064d05c4e516acfc142da0c6bea93001e84c6749ec7e8f6a4ce149e57b52",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "assets/sources/portals/personality.png",
+      "status": "original-generated-portal-source-preserved",
+      "bytes": 2105965,
+      "sha256": "ae6528d23de876fad9c442dae58e989e65b03ab126821c1cd361a0de462aff90",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    }
+  ]
+}

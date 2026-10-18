@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "sourceMapping": [
+    {
+      "originalFilename": "bowler-test-logo-v10-reflexo-translucido.png",
+      "projectPath": "assets/sources/brand/bowler-test-approved.png",
+      "sha256": "bbd0108016c8af35282837572bfb5e0bab933a2e4578b49f7e722dca1ebdbe7f",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "bowler-test-logo-v4.png",
+      "projectPath": "assets/archive/brand/bowler-test-logo-v4.png",
+      "sha256": "cf8166cb64f0eb886b7a592e11469f015920c52cd66646d648c5079e017423a6",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "bowler-test-logo-v5-test-acima.png",
+      "projectPath": "assets/archive/brand/bowler-test-logo-v5-test-acima.png",
+      "sha256": "d271efdb7a622ab454cb92c50dccbab33034ee5ed3cd0b8afbe2d589f5e5f54c",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "bowler-test-logo-v6-sobreposto.png",
+      "projectPath": "assets/archive/brand/bowler-test-logo-v6-sobreposto.png",
+      "sha256": "1340bbcb10b8dd3eccc80ecd5043a9e51bfaa083fc4c6f6440b0fb82d423af68",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "bowler-test-logo-v7-verde-limpo.png",
+      "projectPath": "assets/archive/brand/bowler-test-logo-v7-verde-limpo.png",
+      "sha256": "f3ef00d902daa15a8e0b96cf778e02c3101070b71c2f96f4464e011818e3c765",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "bowler-test-logo-v8-sombra-surreal.png",
+      "projectPath": "assets/archive/brand/bowler-test-logo-v8-sombra-surreal.png",
+      "sha256": "ec7247724769dc11580ee8cd47d6e8d86aee1477d7ea71d562f66652b600da9b",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "bowler-test-logo-v9-luz-sombra.png",
+      "projectPath": "assets/archive/brand/bowler-test-logo-v9-luz-sombra.png",
+      "sha256": "15a33a885d4b56ff437c4d3a1d162d4d8856bc393ff353e5ea69643f8cf2cf63",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-andando-costas-v1.png",
+      "projectPath": "assets/sources/character/walk/walk-back-original.png",
+      "sha256": "b437b3ca53482aed5cf29e8c603b6cbf2901dd09a4ae87d648320b701232c9e9",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-andando-direita-v1.png",
+      "projectPath": "assets/sources/character/walk/walk-right-original.png",
+      "sha256": "1683e761e8a1d038ca1096ea4f652273818e396845bb90570ed104815e3a0683",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-andando-esquerda-v1.png",
+      "projectPath": "assets/sources/character/walk/walk-left-original.png",
+      "sha256": "35775079dc9bf3556498c7071d7f96ed7c10f38cbe8943806aa6ac2cd08ba5a7",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-andando-frente-v1.png",
+      "projectPath": "assets/sources/character/walk/walk-front-original.png",
+      "sha256": "d40d3421ced52b5a38474af7b655c484d65dc382a52301b54da5c3dc0c219fe9",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-caminhada-estudo-v1.png",
+      "projectPath": "assets/archive/character/browler-caminhada-estudo-v1.png",
+      "sha256": "ab4289f0ff1d968386b92981ae71e85e9e597dca6838d68b35b084e73956f11e",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v1.png",
+      "projectPath": "assets/archive/character/browler-conceito-v1.png",
+      "sha256": "58f402be90c61db46b64598ad586eff9a84d01a10743274abb02bd50481f8c5f",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v2.png",
+      "projectPath": "assets/archive/character/browler-conceito-v2.png",
+      "sha256": "32e36864a6d52a0c7ef10c83d716a99f8489ed52ec9d77af186fcb2681d718cb",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v3.png",
+      "projectPath": "assets/archive/character/browler-conceito-v3.png",
+      "sha256": "fe0c13df5032707ef46620135d1587fa68543ab993724e2b3a9f6cd1c9e5d9de",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v4-branco-vermelho.png",
+      "projectPath": "assets/archive/character/browler-conceito-v4-branco-vermelho.png",
+      "sha256": "9d17c183bdb668c11418d73c2340bea15c6224a06f11e1326a103b859a412acf",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v5-preto-vermelho.png",
+      "projectPath": "assets/archive/character/browler-conceito-v5-preto-vermelho.png",
+      "sha256": "bf78236f7f94e46f7980d1a8e717fc3cd8710136333d7885890f5b11f3401356",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v6-camisa-branca.png",
+      "projectPath": "assets/archive/character/browler-conceito-v6-camisa-branca.png",
+      "sha256": "e96c04ee9711907f2db48e019a2f856048e0c4e70e0758a40a35b9676a5bdef0",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v7-verde.png",
+      "projectPath": "assets/archive/character/browler-conceito-v7-verde.png",
+      "sha256": "53fb6b620425ed4e75799ea685d112e01de078b0267efb9919e788dcb0c9c228",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v8-camisa-verde.png",
+      "projectPath": "assets/archive/character/browler-conceito-v8-camisa-verde.png",
+      "sha256": "5532d1c4663328ff606d27623b3be4026646af069a346901eec40177cbe667eb",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-conceito-v9-gravata-verde.png",
+      "projectPath": "assets/sources/character/reference/bowler-approved.png",
+      "sha256": "c01c8fc789bf565f2592e317bc043d448ff394ecc0c5eacb21330c09fe9a0f9c",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-parado-frente-costas-v1.png",
+      "projectPath": "assets/sources/character/idle/front-back-original.png",
+      "sha256": "9752863dae75b133361daa52da5f1a4b851fefbbe1452d0a2ce4ca492b8a7a25",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-test-logo-v1.png",
+      "projectPath": "assets/archive/brand/browler-test-logo-v1.png",
+      "sha256": "a049ab51a368a1f892817ae5dcdd2ff73f28b2da0eb6161f5852049de16b34f2",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-test-logo-v2-minimalista.png",
+      "projectPath": "assets/archive/brand/browler-test-logo-v2-minimalista.png",
+      "sha256": "61d32579fdd33e20c203a9c468e9bec8b1fc3bb68678d3530d9f2ae35915c15b",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    },
+    {
+      "originalFilename": "browler-test-logo-v3-sem-chapeu.png",
+      "projectPath": "assets/archive/brand/browler-test-logo-v3-sem-chapeu.png",
+      "sha256": "c267851bbba81eeedf2097f7365014123e196460c07a0706489bebfae96f0be7",
+      "origin": "Generated with integrated image tool in this conversation; source copied without byte changes."
+    }
+  ],
+  "processing": "Derived files produced by tools/prepare_assets.py. Originals remain intact.",
+  "audio": "Pre-existing user folder file; authorship and license not supplied."
+}

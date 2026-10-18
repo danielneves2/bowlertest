@@ -1,0 +1,1 @@
+{"name":"bowler-test","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"node server/local.mjs","start":"node server/local.mjs","test":"node --test src/game/scenes/hub.test.js"}}

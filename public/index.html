@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fafbf9"><title>BOWLER TEST</title><link rel="stylesheet" href="/src/style.css"></head>
+<body>
+ <main id="experience" aria-label="BOWLER TEST">
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <header><a class="wordmark" href="/" aria-label="Bowler Test, início">B<span class="brand-dot">.</span></a><nav aria-label="Preferências"><span id="progress" aria-live="polite"></span><span class="divider"></span><button id="language" aria-label="Switch to English">EN</button><span class="divider"></span><button id="sound" aria-pressed="false">Som desligado</button></nav></header>
+  <div id="brand"><img src="/assets/brand/bowler-test-logo.png" alt="BOWLER TEST"></div>
+  <section id="doors" aria-label="Salas de exploração" hidden></section>
+  <div id="prompt" aria-live="polite" hidden></div>
+  <div id="guidance"><p id="hint" aria-live="polite"></p><div id="keys"><span>W</span><span>A</span><span>S</span><span>D</span><em id="key-label">ou setas para explorar</em></div></div>
+  <div id="joystick" hidden role="group" aria-label="Controle de movimento"><div id="stick"></div></div>
+  <div id="veil" aria-hidden="true"></div>
+  <dialog id="modal"><button id="close" aria-label="Fechar" class="close">×</button><div id="modal-content"></div></dialog>
+ </main><audio id="music" src="/preview/music.mp3" loop preload="none"></audio><script type="module" src="/src/main.js"></script>
+</body></html>

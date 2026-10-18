@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate-not-motion-approved",
+  "frameWidth": 256,
+  "frameHeight": 320,
+  "origin": {
+    "x": 0.5,
+    "y": 0.95
+  },
+  "footAnchorPixels": {
+    "x": 128,
+    "y": 304
+  },
+  "frameRate": 8,
+  "frameRateStatus": "suggested-not-validated",
+  "frameOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "repeat": -1,
+  "directions": {
+    "front": {
+      "sheet": "assets/staging/character/walk/walk-front.png",
+      "frames": 8,
+      "layout": {
+        "columns": 8,
+        "rows": 1
+      },
+      "sourceGrid": {
+        "columns": 4,
+        "rows": 2,
+        "order": "row-major"
+      },
+      "status": "candidate"
+    },
+    "back": {
+      "sheet": "assets/staging/character/walk/walk-back.png",
+      "frames": 8,
+      "layout": {
+        "columns": 8,
+        "rows": 1
+      },
+      "sourceGrid": {
+        "columns": 4,
+        "rows": 2,
+        "order": "row-major"
+      },
+      "status": "candidate"
+    },
+    "left": {
+      "sheet": "assets/staging/character/walk/walk-left.png",
+      "frames": 8,
+      "layout": {
+        "columns": 8,
+        "rows": 1
+      },
+      "sourceGrid": {
+        "columns": 4,
+        "rows": 2,
+        "order": "row-major"
+      },
+      "status": "candidate"
+    },
+    "right": {
+      "sheet": "assets/staging/character/walk/walk-right.png",
+      "frames": 8,
+      "layout": {
+        "columns": 8,
+        "rows": 1
+      },
+      "sourceGrid": {
+        "columns": 4,
+        "rows": 2,
+        "order": "row-major"
+      },
+      "status": "candidate"
+    }
+  },
+  "idle": {
+    "front": {
+      "file": "public/assets/characters/bowler/idle/front.png",
+      "hands": "in-blazer-side-pockets",
+      "frames": 1
+    },
+    "back": {
+      "file": "public/assets/characters/bowler/idle/back.png",
+      "hands": "in-blazer-side-pockets",
+      "frames": 1
+    }
+  },
+  "transition": "walk: hands out; idle: hands in pockets; transition frames not yet created",
+  "knownLimitations": [
+    "AI-generated poses have changes in silhouette and perspective.",
+    "Frame order preserves source order; a seamless anatomically correct loop has NOT been established.",
+    "Do not mirror left/right blindly: pocket and hat are asymmetric.",
+    "Idle side views and transitions are not supplied."
+  ]
+}
