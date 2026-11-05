@@ -81,13 +81,14 @@ $('language').onclick=()=>{lang=lang==='pt-BR'?'en':'pt-BR';store.set('lang',lan
 /* ---------- Sound ---------- */
 let audioErrorUntil=0;
 // The user's soundtrack stays on the explicit local-preview route, outside public/assets.
+// Published builds may ship without the MP3 (license pending): then only the synthesized cues play.
 const soundtrack=new Audio('/preview/music.mp3');soundtrack.loop=true;soundtrack.volume=.24;soundtrack.preload='none';
 let soundChosen=false,soundStarting=false,soundRequest=0;
 async function changeSound(enabled){
  const request=++soundRequest;
  if(!enabled){soundStarting=false;soundtrack.pause();muted=true;await setSound(false);renderCopy();return;}
  soundStarting=true;
- try{const effects=setSound(true);await soundtrack.play();await effects;if(request!==soundRequest)return;muted=false;soundChosen=true;}
+ try{const effects=setSound(true);await soundtrack.play().catch(e=>{if(e?.name==='NotAllowedError')throw e;});await effects;if(request!==soundRequest)return;muted=false;soundChosen=true;}
  catch{if(request!==soundRequest)return;soundtrack.pause();await setSound(false);muted=true;audioErrorUntil=elapsed+5;}
  finally{if(request===soundRequest){soundStarting=false;renderCopy();}}
 }

@@ -11,3 +11,4 @@ Thumbs.db
 work/
 *.mp3
 server/*.log
+.vercel/

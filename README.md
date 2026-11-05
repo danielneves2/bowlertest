@@ -30,3 +30,12 @@ Leia `docs/engineering/LOCAL-PROTOTYPE.md`, `docs/DECISIONS.md` e `AGENTS.md`. C
 Cada porta abre o desafio do dia (o mesmo para todos, troca à meia-noite de Brasília). Especificação em `docs/design/DAILY-CHALLENGES.md`; código em `src/rooms/`. As salas verbal e divergente usam o espaço de palavras em `public/data/words/`, gerado por `python tools/build_word_space.py` (requer spaCy 3.8, spacy-lookups-data e os pacotes `pt_core_news_lg`/`en_core_web_lg`; só é preciso rodar de novo para mudar as listas em `tools/word_lists.py`).
 
 O botão Diário abre o retrato do dia, a janela de sete dias, a coleção e o arquivo. Complete as oito salas da data e idioma para revelar o espelho final. Conclusões deixam objetos no salão; progresso e respostas são locais e separados por idioma. O arquivo abre a partir do segundo dia, sem alterar a sequência de dias realmente jogados. Os sons atuais são síntese original opt-in; o MP3 antigo não é reproduzido. A meta de 60 fps ainda precisa de validação no aparelho-alvo; há buffers de desenho e resolução adaptativa do Canvas.
+
+
+## Publicar (Vercel)
+
+O deploy já está configurado em `vercel.json`: a Vercel roda `node scripts/build.mjs`, que monta o site estático em `dist/` com as mesmas rotas do servidor local (`/src`, `/assets`, `/data`, `/preview`). Não há dependências para instalar. O `.vercelignore` deixa de fora originais, documentação e as ferramentas Python (era isso que fazia a Vercel tentar buildar como app Python).
+
+Para conferir antes de subir: `npm run build` e abra `dist/` com qualquer servidor estático (ou `npm run preview`).
+
+A música (`*.mp3`) não vai para o repositório até a licença ser confirmada; sem ela, o botão de som toca só os efeitos sintetizados. As imagens em `public/assets` foram otimizadas para web (paleta de alta qualidade); os originais continuam em `assets/sources`.

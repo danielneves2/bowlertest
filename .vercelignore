@@ -1,0 +1,23 @@
+# Fica fora do deploy: material de produção, documentação e ferramentas Python.
+# (tools/ com .py era o que fazia a Vercel tentar buildar como app Python)
+assets/archive
+assets/previews
+assets/sources/brand
+assets/sources/character
+assets/sources/collection
+assets/sources/portals
+assets/sources/room-art
+assets/sources/salon
+assets/sources/salon-raster
+assets/staging/character/walk/back
+assets/staging/character/walk/front
+assets/staging/character/walk/left
+assets/staging/character/walk/right
+/docs
+/tools
+/data
+server/*.log
+*.bat
+*.py
+requirements.txt
+pyproject.toml
