@@ -22,4 +22,11 @@ Leia `docs/engineering/LOCAL-PROTOTYPE.md`, `docs/DECISIONS.md` e `AGENTS.md`. C
 
 ## Verificar
 
-`npm test` verifica descoberta e deslocamento. `python tools/validate_assets.py` verifica os assets. Para reconstruir derivados: `python tools/prepare_assets.py` (requer Pillow). Para refazer os portais frontais a partir dos originais: `python tools/frontalize_portals.py` (Pillow, numpy, scipy).
+`npm test` verifica descoberta, deslocamento, desafios diários, histórico, comparação pessoal, arquivo e armazenamento (29 testes). `python tools/validate_assets.py` verifica os assets. Para reconstruir derivados: `python tools/prepare_assets.py` (requer Pillow). Para refazer os portais frontais a partir dos originais: `python tools/frontalize_portals.py` (Pillow, numpy, scipy).
+
+
+## Desafios diários
+
+Cada porta abre o desafio do dia (o mesmo para todos, troca à meia-noite de Brasília). Especificação em `docs/design/DAILY-CHALLENGES.md`; código em `src/rooms/`. As salas verbal e divergente usam o espaço de palavras em `public/data/words/`, gerado por `python tools/build_word_space.py` (requer spaCy 3.8, spacy-lookups-data e os pacotes `pt_core_news_lg`/`en_core_web_lg`; só é preciso rodar de novo para mudar as listas em `tools/word_lists.py`).
+
+O botão Diário abre o retrato do dia, a janela de sete dias, a coleção e o arquivo. Complete as oito salas da data e idioma para revelar o espelho final. Conclusões deixam objetos no salão; progresso e respostas são locais e separados por idioma. O arquivo abre a partir do segundo dia, sem alterar a sequência de dias realmente jogados. Os sons atuais são síntese original opt-in; o MP3 antigo não é reproduzido. A meta de 60 fps ainda precisa de validação no aparelho-alvo; há buffers de desenho e resolução adaptativa do Canvas.

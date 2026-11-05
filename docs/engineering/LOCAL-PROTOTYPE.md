@@ -93,3 +93,52 @@ Prevalece sobre os ajustes anteriores de posição, sombra e rótulos.
 - Logo na mesma profundidade das duas portas centrais, centralizada entre elas: largura = 86% do vão entre as molduras internas, centro a ~31% da altura da porta acima do piso. Escala com a tela e com a câmera; continua sumindo quando o Bowler se aproxima.
 - Caminhada frente/costas alternando as duas pernas. As sequências anteriores (frente [0,1,2,1], costas [0,1,3,5]) só mostravam a perna direita se mexendo. Medindo sapatos e punhos em cada quadro das faixas candidatas: frente [3,4,5,7,2,1] e costas [2,3,1,6,7,5] (perna direita sobe, apoia, passagem, perna esquerda sobe, apoia, passagem; braço oposto à perna). Como cada ciclo agora tem dois passos, a passada de frente/costas passou de 0,105 para 0,16 unidade por ciclo. Laterais inalteradas. Faixas não editadas; continuam candidatas.
 - Caminhada para a direita: a faixa candidata `walk-right` nunca troca braço nem perna (quadros 0,1,3,4,5,7 repetem a mesma passada com o mesmo braço à frente; 2 e 6 são passagem). Agora a direita usa a caminhada esquerda espelhada quadro a quadro ao carregar (`src/game/mirror.js`), na ordem [0,1,4,6], preservando o pivô x=128. O lenço de bolso (peito esquerdo, visível só andando para a esquerda) é coberto com o tecido do paletó logo abaixo para não aparecer do lado errado. A iluminação fica espelhada. `walk-right.png` continua preservada e fora de uso; nenhum arquivo de imagem foi alterado.
+
+
+## Desafios diários — 18/10/2026
+
+- `src/rooms/index.js` monta a sala no diálogo: cabeçalho com número do desafio e data, corpo do jogo, resultado com cartão para copiar e aviso de jogo exploratório.
+- `src/rooms/daily.js`: data de Brasília, número do desafio, PRNG determinístico (mulberry32 sobre FNV-1a), rodízio sem repetição e progresso por dia em `localStorage` (`bowlertest.daily.<data>.<sala>`).
+- `src/rooms/semantic.js` carrega os diretórios pt-BR e en em `public/data/words/` só quando a sala verbal ou divergente abre (~4,8 MB por idioma). `server/local.mjs` passou a servir `/data/` com tipos `.json` e `.bin`.
+- Testes: 20 (10 do hub + 10 das salas: determinismo, gabarito único das matrizes, distratores com um atributo diferente, séries inteiras, cubos com uma resposta e três espelhos, sequências sem repetição, trios por dificuldade, 50 itens do espelho em 10 dias, integridade do espaço semântico).
+- Verificado no Chromium em 1440×900 e 390×844: as oito salas abrem e jogam, resultado e cartão aparecem, sem erros de JavaScript.
+
+## Diário e coleção — 18/10/2026
+
+- Arquitetura preservada: JS/HTML/CSS, Canvas 2D, servidor local e nenhuma dependência de runtime adicionada.
+- `src/journey/model.js`: datas válidas do arquivo, estado das portas, métricas por sala, comparação pessoal, janela semanal, coleção, sequência e respostas datadas de personalidade. Funções puras com cobertura em `src/journey/model.test.js`.
+- `src/journey/view.js` e `src/journey/journey.css`: diário acessível em diálogo nativo, retrato composto com PNGs e pose existente de costas, coleção e formulário de data. Navegação com botões nativos e estado aria-pressed; foco visível, Escape e retorno ao acionador.
+- `src/rooms/index.js`: recebe data selecionada, guarda primeira conclusão, grava idioma/versão/dia real e ignora callbacks de salas desmontadas. Completar a oitava sala oferece e abre o retrato ao retornar ao salão. Vinheta de cada sala carrega sob demanda.
+- Progresso pt-BR continua nas chaves anteriores; inglês usa sufixo .en. Registros novos contêm version=1, lang, startedAt, completedAt e playedDay. Dados anteriores não são reescritos; origem desconhecida impede comparação. Em falha de armazenamento, Map em memória mantém a sessão, mas não sobrevive a recarga.
+- Personalidade: respostas por item/data/idioma no estado e resultado; perfil parcial só inclui datas até a selecionada. Agregado antigo preservado e excluído de comparações. Divergência: recorde calculado pelo histórico da mesma versão/idioma, sem gravar o antigo recorde global.
+- Salão: perspectiva das portas rasterizada uma vez em buffers; sombras de contato também armazenadas, escaladas com câmera. Nenhum redesenho do salão por trás do diálogo aberto. Objetos adicionais carregados quando existem conclusões, no máximo quatro por portal; contagem completa no diário. Névoa continua independente do movimento.
+- Som opt-in em `src/journey/sound.js`: síntese local de chave, papel, vento e conclusão; não usa microfone, amostras ou rede. MP3 anterior não é carregado pelo jogo.
+- Corrigido conflito da classe CSS close: a tabela de distância recebia a posição absoluta do botão de fechar. Regra agora usa #close. Correções de min-width e quebra de ferramentas evitam overflow na sala verbal em 390 px.
+- Novos assets: nove PNGs RGBA 1024×1024, de SVGs autorais com duas variantes de material. `tools/create_collection.mjs` preserva fontes existentes; `tools/register_collection.py` registra somente novas entradas e recusa alteração de hashes previamente registrados. PNGs rasterizados em Chromium com fundo transparente; espelho de chão encosta na borda inferior. Proveniências em `assets/collection.provenance.json` e `assets/audio-cues.provenance.json`.
+- Verificação: 29 testes de lógica; percurso completo real das oito salas em contexto isolado; retrato automático e persistência; todas as salas em 390×844, sem overflow; separação de idioma, personalidade em inglês, armazenamento bloqueado e arquivo com histórico de sete dias simulado exclusivamente no contexto de QA. Nenhum dado de teste no perfil do usuário. Capturas semanais de QA são exemplos sintéticos, não resultados reais.
+- Pendências de escopo futuro preservadas: Alvo numérico, velocidade por símbolos, usos alternativos, revisão humana dos bancos verbais e validação científica. Movimento continua usando as faixas candidatas existentes, sem promoção de aprovação artística.
+- Desempenho: névoa pré-composta em duas camadas; rótulos sem backdrop-filter individual; resolução do Canvas começa em até 1,5× e diminui até 60% se o orçamento médio de frame exceder 25 ms. Interface HTML e retrato permanecem nítidos. Medição automática no Chromium headless desta máquina: mediana de 33,4 ms/frame e p95 de 50,1 ms em 180 amostras com oito salas concluídas. **Meta de 60 fps estáveis não confirmada**, precisa de perfil em navegador com aceleração gráfica no aparelho-alvo. Não confundir testes funcionais aprovados com validação dessa meta.
+
+## Interface clássica e cenário — 18/10/2026
+
+- src/ui/classic.css é carregado depois das folhas anteriores e define os cards com dimensões limitadas à tela, estados separados para jogo/ajuda/resultado e layout responsivo.
+- src/ui/pages.js pagina elementos DOM sem recriar o estado dos desafios. Testes cobrem sequência completa sem perdas/duplicatas, última página parcial, limites de navegação, lista vazia e tamanho inválido.
+- O Diário pagina retrato, resultados, semana e coleção; privacidade local fica na aba Sobre. A sala verbal pagina palpites e palavras próximas. Todos os detalhes permanecem consultáveis.
+- src/game/salon.js desenha o tapete no plano do chão e adiciona objetos à fila de profundidade. tools/create_salon.mjs gera SVGs autorais e registra fontes/runtime no manifesto; preserva arquivos existentes.
+- Validação: 31 testes aprovados; 150 assets e 524 verificações de integridade aprovados. Percurso real das oito salas concluído em navegador isolado sem erros de JavaScript. Verificação de limites em 1366×768, 390×844 e 390×667, com e sem conclusões salvas, incluindo ajuda, detalhes e todas as páginas do Diário: nenhum elemento fora do diálogo. Nenhum dado de QA inserido no perfil do usuário.
+- Não houve nova medição de desempenho; a limitação de fps registrada acima continua válida.
+- Conferência adicional em inglês: oito salas e ajuda, além das páginas do Diário, nos mesmos três tamanhos, sem overflow ou erros de JavaScript.
+
+## Revisão de materiais — 18/10/2026
+
+- Seis imagens originais geradas pelo image_gen integrado: luminária, dois quadros, piso têxtil, moldura de card e marfim. Registro por tools/register_salon_raster.py, prompts completos e proveniência em assets/salon-raster.provenance.json. Originais anteriores intactos.
+- src/game/salon.js usa sprites PNG com alfa, projeção, ordem de profundidade e sombras. O piso usa amostragem da textura por faixas de tela com coordenadas de mundo; nenhuma borda de tapete. A decoração ocupa outros cantos do mundo, em vez da fileira de portais.
+- Cards usam border-image da moldura gerada e textura de superfície. Tipografia unificada em quatro variáveis CSS de função (título, corpo, controle, legenda). Cabeçalho mostra o portal correspondente.
+- 31 testes de lógica aprovados; validação de 162 assets/548 verificações aprovada. Não foi certificada uma taxa de 60 fps nesta revisão.
+- Conferência visual final: oito salas, ajuda, resultados, detalhes e páginas do Diário sem elementos fora do diálogo em 1366×768, 390×844 e 390×667. Inglês também conferido nas oito salas e Diário em 390×667. Nenhum erro de JavaScript detectado nesses percursos.
+
+- Revisão do cenário: quadro frontal do cavalo de xadrez maior/mais alto; luminária retirada; escultura 3D gerada no canto direito simétrico ao quadro esquerdo. Dois PNGs novos registrados, sem sobrescrever imagens antigas. Posição, escala e sombra conferidas no navegador; quadro central também conferido em viewport móvel.
+
+- Cards: oito artes PNG exclusivas por teste + ornamento de canto gerado, registrados por tools/register_room_art.py e assets/room-art.provenance.json. Carregamento por sala; resultado reutiliza o arquivo da própria sala. Retirada a moldura por border-image esticada, substituída por cantos proporcionais decorativos sem interação. Interface e desafios preservados.
+- Movimento: velocidade .21, fase preservada em mudanças de direção, balanço contínuo por passada e câmera exponencial. Piso com faixas de 6 px reduz chamadas de desenho. 31 testes de lógica e validação de 184 assets/592 verificações aprovados.
+- QA desta revisão: oito salas em estados novos/concluídos, ajuda, detalhes e todas as páginas do Diário em 1366×768, 390×844 e 390×667, sem overflow ou erros de JavaScript. Percurso de movimento S/A/W/D e resultado verbal verificados em contexto isolado, sem alterar o histórico do usuário.

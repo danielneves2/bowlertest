@@ -1,0 +1,86 @@
+{
+  "created": "2026-10-18",
+  "origin": "Original SVG geometry authored in code for this project; no external images, tracing, fonts or samples.",
+  "license": "CC0-1.0 for these newly authored vector drawings and their PNG renders only.",
+  "brief": "Nine surreal collectible sculptures: a window holding sky, a book releasing a cloud, a balance weighing sky and stone, a hollow malachite cube, a black bowler holding a cloud, a brass constellation, a key holding sky, an apple mirror and a full-length sky mirror. Black lacquer, malachite, bronze, ivory, soft blue. No text or reproduction of paintings.",
+  "variants": [
+    "study: translucent material study",
+    "sculpture: opaque lacquer and stronger modelling"
+  ],
+  "selection": "sculpture selected for solid silhouettes at small hub sizes and legible bronze/green material separation. Study retained, not integrated.",
+  "tool": "tools/create_collection.mjs; Chromium SVG rasterization to transparent PNG",
+  "assets": [
+    {
+      "name": "abstract",
+      "source": "assets/sources/collection/abstract-sculpture.svg",
+      "file": "public/assets/collection/abstract.png",
+      "status": "original-integrated-for-review",
+      "grounded": false,
+      "prompt": "Original abstract sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    },
+    {
+      "name": "verbal",
+      "source": "assets/sources/collection/verbal-sculpture.svg",
+      "file": "public/assets/collection/verbal.png",
+      "status": "original-integrated-for-review",
+      "grounded": false,
+      "prompt": "Original verbal sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    },
+    {
+      "name": "numerical",
+      "source": "assets/sources/collection/numerical-sculpture.svg",
+      "file": "public/assets/collection/numerical.png",
+      "status": "original-integrated-for-review",
+      "grounded": false,
+      "prompt": "Original numerical sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    },
+    {
+      "name": "spatial",
+      "source": "assets/sources/collection/spatial-sculpture.svg",
+      "file": "public/assets/collection/spatial.png",
+      "status": "original-integrated-for-review",
+      "grounded": false,
+      "prompt": "Original spatial sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    },
+    {
+      "name": "memory",
+      "source": "assets/sources/collection/memory-sculpture.svg",
+      "file": "public/assets/collection/memory.png",
+      "status": "original-integrated-for-review",
+      "grounded": false,
+      "prompt": "Original memory sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    },
+    {
+      "name": "divergent",
+      "source": "assets/sources/collection/divergent-sculpture.svg",
+      "file": "public/assets/collection/divergent.png",
+      "status": "original-integrated-for-review",
+      "grounded": false,
+      "prompt": "Original divergent sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    },
+    {
+      "name": "convergent",
+      "source": "assets/sources/collection/convergent-sculpture.svg",
+      "file": "public/assets/collection/convergent.png",
+      "status": "original-integrated-for-review",
+      "grounded": false,
+      "prompt": "Original convergent sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    },
+    {
+      "name": "personality",
+      "source": "assets/sources/collection/personality-sculpture.svg",
+      "file": "public/assets/collection/personality.png",
+      "status": "original-integrated-for-review",
+      "grounded": false,
+      "prompt": "Original personality sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    },
+    {
+      "name": "mirror",
+      "source": "assets/sources/collection/mirror-sculpture.svg",
+      "file": "public/assets/collection/mirror.png",
+      "status": "original-integrated-for-review",
+      "grounded": true,
+      "prompt": "Original mirror sculpture. Shared material brief above; geometry authored in SVG, no generative model prompt."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "checks": 388,
+  "checks": 592,
   "errors": [],
-  "assetCount": 89,
+  "assetCount": 184,
   "status": "passed",
   "scope": "File integrity and preparation only; not scientific or motion validation."
 }

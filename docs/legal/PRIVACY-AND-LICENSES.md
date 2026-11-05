@@ -16,5 +16,14 @@ Documento de requisitos para revisão futura, não parecer jurídico nem confirm
 | --- | --- | --- |
 | PNGs de personagem/logo | Geração integrada nesta conversa | Proveniência registrada; revisão de direitos/marca pendente. |
 | MP3 | Arquivo pré-existente na pasta do usuário | Uso público bloqueado por licença desconhecida. |
-| Itens/instrumentos | Ainda não incorporados | Pesquisar e registrar termos antes de criar banco. |
+| Itens/instrumentos | Gerados por regra (matrizes, séries, cubos, chapéus); trios autorais; IPIP-50 (domínio público, tradução livre) | ICAR não usado (uso acadêmico exclusivo). Raven/WAIS/SDMT não copiados. Revisão humana dos trios e da tradução pendente. |
+| Vetores de palavras | spaCy `pt_core_news_lg`/`en_core_web_lg` 3.8, vetores Explosion declarados CC0 nos metadados | Derivado em `public/data/words/`. Pacotes de pipeline completos têm outras licenças (pt CC BY-SA 4.0, en MIT); só os vetores são usados. Confirmar antes de publicar. |
 | Dependência Pillow | Ferramenta de preparação, instalada no ambiente | Fixar versão no ambiente reprodutível; não é dependência do jogo. |
+# Atualização de implementação — 18/10/2026
+
+Diário, arquivo e coleção permanecem inteiramente locais. Além de respostas e resultados, o navegador guarda idioma, versão da regra, data do desafio e data real da conclusão. Esses campos permitem separar idiomas e calcular sequência sem atribuir uma prática de arquivo a um dia passado. Não há envio, conta ou telemetria. Limpar os dados locais remove o histórico; armazenamento bloqueado mantém apenas a sessão em memória.
+
+As nove peças da coleção e do retrato são geometria SVG original produzida para este projeto, com PNGs derivados. Fontes, estudos e procedência estão em `assets/collection.provenance.json`. Declaração CC0-1.0 restrita a essas novas ilustrações e seus renders, sem relicenciar assets anteriores. Sons novos são receitas autorais de síntese Web Audio, também CC0-1.0, sem gravações ou samples; registro em `assets/audio-cues.provenance.json`. O MP3 anterior não foi movido para public e não é mais reproduzido pela aplicação.
+
+Comparações do relatório são apenas pessoais e exploratórias. Tamanho do objeto é uma decisão artística; não é unidade psicológica. Personalidade não recebe nota de desempenho. Itens existentes e traduções continuam sem validação brasileira; cobertura de 50 frases não implica estabilidade do perfil.
+

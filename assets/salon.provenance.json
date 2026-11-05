@@ -1,0 +1,23 @@
+{
+  "created": "2026-10-18",
+  "origin": "Original SVG geometry authored for this project. No external images or traced paintings.",
+  "license": "CC0-1.0 for these newly authored illustrations only.",
+  "brief": "Classical RPG drawing room: eight engraved medallions, woven ivory/green checkerboard, fluted brass floor lamp with levitating apple, framed cloud carrying stone and stair climbing toward a green moon. Restrained black, bronze, green and ivory. No gradients in the interface.",
+  "sources": "assets/sources/salon/",
+  "runtime": "public/assets/salon/",
+  "generator": "tools/create_salon.mjs",
+  "assets": [
+    "public/assets/salon/crest-abstract.svg",
+    "public/assets/salon/crest-verbal.svg",
+    "public/assets/salon/crest-numerical.svg",
+    "public/assets/salon/crest-spatial.svg",
+    "public/assets/salon/crest-memory.svg",
+    "public/assets/salon/crest-divergent.svg",
+    "public/assets/salon/crest-convergent.svg",
+    "public/assets/salon/crest-personality.svg",
+    "public/assets/salon/checker-weave.svg",
+    "public/assets/salon/lamp.svg",
+    "public/assets/salon/frame-cloud.svg",
+    "public/assets/salon/frame-stair.svg"
+  ]
+}

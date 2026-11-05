@@ -1,0 +1,52 @@
+{
+  "created": "2026-10-18",
+  "origin": "Built-in image_gen original generated illustrations. No portal or framed painting reused.",
+  "status": "generated-integrated-for-review",
+  "assets": [
+    {
+      "name": "abstract",
+      "file": "exec-d57c26e5-3112-495b-82cf-0438a9eba52f.png",
+      "prompt": "Use case stylized-concept. ONE original premium realistic 3D surreal game illustration for a cognitive challenge card. Isolated on genuinely transparent background, square 1024x1024. Rich tactile ivory marble, dark green malachite, aged bronze, small black lacquer accents; soft upper-left studio lighting, subtle ambient occlusion, exquisite sculptural depth. Strong readable silhouette, fills 80% of canvas. No door, no portal, no picture frame, no UI, no text, no numbers, no scenery rectangle, no floor backdrop, no external shadow or halo. Not a flat vector icon. Original composition, not an existing painting. SUBJECT: An impossible miniature orrery of three ivory geometric solids (sphere, cube, pyramid) orbiting a broken malachite ring, suspended on fine brass rods; one empty socket suggests a missing pattern, a tiny cloud passes through the ring. Evokes discovering abstract rules."
+    },
+    {
+      "name": "verbal",
+      "file": "exec-83780c71-5f5a-4ae0-a6ca-a3035e884503.png",
+      "prompt": "Use case stylized-concept. ONE original premium realistic 3D surreal game illustration for a cognitive challenge card. Isolated on genuinely transparent background, square 1024x1024. Rich tactile ivory marble, dark green malachite, aged bronze, small black lacquer accents; soft upper-left studio lighting, subtle ambient occlusion, exquisite sculptural depth. Strong readable silhouette, fills 80% of canvas. No door, no portal, no picture frame, no UI, no text, no numbers, no scenery rectangle, no floor backdrop, no external shadow or halo. Not a flat vector icon. Original composition, not an existing painting. SUBJECT: An open antique ivory book whose blank pages transform into a flock of sculpted green and ivory birds, circling a small brass compass suspended above the spine, a wisp of cloud beneath the book. Evokes exploring meanings and finding a hidden word. No lettering anywhere."
+    },
+    {
+      "name": "numerical",
+      "file": "exec-9ab73dd0-ecd9-44cb-8f62-8cb3e0f7bb1e.png",
+      "prompt": "Use case stylized-concept. ONE original premium realistic 3D surreal game illustration for a cognitive challenge card. Isolated on genuinely transparent background, square 1024x1024. Rich tactile ivory marble, dark green malachite, aged bronze, small black lacquer accents; soft upper-left studio lighting, subtle ambient occlusion, exquisite sculptural depth. Strong readable silhouette, fills 80% of canvas. No door, no portal, no picture frame, no UI, no text, no numbers, no scenery rectangle, no floor backdrop, no external shadow or halo. Not a flat vector icon. Original composition, not an existing painting. SUBJECT: A surreal bronze abacus bent into an elegant ascending spiral, ivory and green stone beads growing progressively larger along its rails, a tiny marble staircase curling between the beads. Evokes numerical sequences and arithmetic. Readable uncluttered silhouette."
+    },
+    {
+      "name": "spatial",
+      "file": "exec-d151ae29-fcc2-4b55-9c0a-2326c4b87d79.png",
+      "prompt": "Use case stylized-concept. ONE original premium realistic 3D surreal game illustration for a cognitive challenge card. Isolated on genuinely transparent background, square 1024x1024. Rich tactile ivory marble, dark green malachite, aged bronze, small black lacquer accents; soft upper-left studio lighting, subtle ambient occlusion, exquisite sculptural depth. Strong readable silhouette, fills 80% of canvas. No door, no portal, no picture frame, no UI, no text, no numbers, no scenery rectangle, no floor backdrop, no external shadow or halo. Not a flat vector icon. Original composition, not an existing painting. SUBJECT: A levitating exploded ivory and malachite cube, six thick L-shaped pieces rotated in different orientations around a tiny central cloud, encircled by two fine antique bronze gyroscope hoops. Evokes mental rotation and assembling space. Elegant strong silhouette, no staircase."
+    },
+    {
+      "name": "memory",
+      "file": "exec-c2055f1c-5c3d-463f-9be9-ef8018c03451.png",
+      "prompt": "Use case stylized-concept. ONE original premium realistic 3D surreal game illustration for a cognitive challenge card. Isolated on genuinely transparent background, square 1024x1024. Rich tactile ivory marble, dark green malachite, aged bronze, small black lacquer accents; soft upper-left studio lighting, subtle ambient occlusion, exquisite sculptural depth. Strong readable silhouette, fills 80% of canvas. No door, no portal, no picture frame, no UI, no text, no numbers, no scenery rectangle, no floor backdrop, no external shadow or halo. Not a flat vector icon. Original composition, not an existing painting. SUBJECT: A black felt bowler hat with green ribbon levitates above an antique bronze hourglass; instead of sand, a chain of five ivory and malachite pearls rises upward through the glass, with a small cloud emerging from the hat. Evokes recalling a sequence before it disappears. Detailed real felt and clear glass added to the shared materials."
+    },
+    {
+      "name": "divergent",
+      "file": "exec-80bd3fc9-4b79-4722-b21a-1a06029edefb.png",
+      "prompt": "Use case stylized-concept. ONE original premium realistic 3D surreal game illustration for a cognitive challenge card. Isolated on genuinely transparent background, square 1024x1024. Rich tactile ivory marble, dark green malachite, aged bronze, small black lacquer accents; soft upper-left studio lighting, subtle ambient occlusion, exquisite sculptural depth. Strong readable silhouette, fills 80% of canvas. No door, no portal, no picture frame, no UI, no text, no numbers, no scenery rectangle, no floor backdrop, no external shadow or halo. Not a flat vector icon. Original composition, not an existing painting. SUBJECT: An open green malachite pomegranate splitting into a celestial constellation of completely different miniature objects: a feather, a shell, a tiny crescent moon, an ivory fish and a bronze teacup, all connected by fine branching golden threads. Evokes many distant unexpected ideas from one seed. Compact harmonious sculpture, no book, no rings or staircases."
+    },
+    {
+      "name": "convergent",
+      "file": "exec-4fd81b45-57ea-4838-a436-3b23d38b4eb9.png",
+      "prompt": "Use case stylized-concept. ONE original premium realistic 3D surreal game illustration for a cognitive challenge card. Isolated on genuinely transparent background, square 1024x1024. Rich tactile ivory marble, dark green malachite, aged bronze, small black lacquer accents; soft upper-left studio lighting, subtle ambient occlusion, exquisite sculptural depth. Strong readable silhouette, fills 80% of canvas. No door, no portal, no picture frame, no UI, no text, no numbers, no scenery rectangle, no floor backdrop, no external shadow or halo. Not a flat vector icon. Original composition, not an existing painting. SUBJECT: Three separate elegant ivory ribbons start from a small feather, a seashell and a crescent moon and merge impossibly into ONE ornate bronze key with malachite handle. The key floats diagonally above a little soft cloud. Evokes three associations converging on a shared answer. Bold sculptural readable key silhouette, no letters."
+    },
+    {
+      "name": "personality",
+      "file": "exec-2f02b13c-a84f-41d6-b4d6-b12087717ddc.png",
+      "prompt": "Use case stylized-concept. ONE original premium realistic 3D surreal game illustration for a cognitive challenge card. Isolated on genuinely transparent background, square 1024x1024. Rich tactile ivory marble, dark green malachite, aged bronze, small black lacquer accents; soft upper-left studio lighting, subtle ambient occlusion, exquisite sculptural depth. Strong readable silhouette, fills 80% of canvas. No door, no portal, no picture frame, no UI, no text, no numbers, no scenery rectangle, no floor backdrop, no external shadow or halo. Not a flat vector icon. Original composition, not an existing painting. SUBJECT: A mysterious faceless ivory mannequin bust wearing a small black bowler hat with green ribbon. Its smooth blank head gently separates into five curved petal-like ivory shells, revealing a luminous green malachite apple at the core; fine bronze seams hold the petals in orbit. Evokes different facets of personality and self exploration. Absolutely NO human facial features, no eyes, no mirror or frame, no diagnostic imagery. Calm poetic sculpture."
+    },
+    {
+      "name": "corner",
+      "file": "exec-434870ec-7cbf-441d-a4f5-a04b40281ecf.png",
+      "prompt": "Production UI ornament asset, square 1024x1024 genuine transparent background. ONE compact TOP LEFT CORNER ornament for a luxurious surreal antique game panel. A precise right-angle L shaped sculpted bronze acanthus clasp with a small oval malachite cabochon near the top left joint, black lacquer inlay, subtle realistic metal relief. The two arms extend horizontally RIGHT and vertically DOWN from the joint, the bottom-right quadrant is EMPTY transparent. Front-facing orthographic view, perfectly perpendicular arms, no perspective distortion. Thin elegant tapered arms, ornament contained in upper left half plus its arms, entire asset visible with breathing room. Soft upper-left light, photoreal 3D finish, muted antique bronze not bright yellow. NO full frame, NO text, NO paper, NO background or outside cast shadows, NO other objects. Clean alpha, no halo."
+    }
+  ]
+}

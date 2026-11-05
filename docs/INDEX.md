@@ -13,6 +13,7 @@
 - `docs/design/IDENTITY.md`: personagem, marca e paleta.
 - `docs/design/JOURNEY.md`: hub, estados e acessibilidade.
 - `docs/design/ANIMATION.md`: sprites, pivô, ciclos candidatos e aceite.
+- `docs/design/DAILY-CHALLENGES.md`: estudo e especificação dos desafios diários das oito salas, relatório e ordem de implementação.
 
 ## Engenharia, ciência e direitos
 - `docs/engineering/ARCHITECTURE.md`: proposta técnica ainda não implementada.

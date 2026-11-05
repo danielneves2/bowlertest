@@ -1,0 +1,82 @@
+/* The journal is a quiet exhibition catalogue, with the portrait as its central exhibit. */
+#modal-content,.room,.room-body{min-width:0}
+.close-tools{flex-wrap:wrap}
+.door strong{backdrop-filter:none;background:#fffffff2}
+#keys.suggest-retreat span:nth-child(3){border-color:#176b4b;color:#176b4b;background:#edf6ed;box-shadow:0 0 0 3px #176b4b16}
+#joystick.suggest-retreat:after{content:'↓';position:absolute;bottom:3px;left:40px;color:#176b4b;font:20px Georgia,serif;pointer-events:none}
+#archive-banner{position:absolute;top:18px;left:50%;transform:translateX(-50%);z-index:8;background:#fffffff2;border:1px solid #cbd5cb;border-radius:30px;padding:8px 16px;font-size:11px;white-space:nowrap}
+#archive-banner button{color:#176b4b;text-decoration:underline;margin-left:16px}
+.door.in-progress strong:before{content:'◐';color:#8d744a;margin-right:5px}
+.room-head{position:relative;isolation:isolate;padding-right:140px;min-height:145px;max-width:none}
+.room-emblem{position:absolute;right:-18px;top:0;width:155px;height:155px;object-fit:contain;z-index:-1;opacity:.88;filter:drop-shadow(0 12px 10px #20392712);animation:keepsake-float 7s ease-in-out infinite}
+.room-head:before{content:'';position:absolute;inset:-38px -48px 0;z-index:-2;background:radial-gradient(ellipse at 85% 40%,#b0cdd459,transparent 55%),linear-gradient(135deg,#f6f3e9bb,#fff0);border-bottom:1px solid #d8dfd733;pointer-events:none}
+.room-verbal .room-head:before{background:radial-gradient(ellipse at 85% 50%,#e8e0caa0,transparent 60%)}
+.room-numerical .room-head:before{background:repeating-linear-gradient(90deg,#b09a5e08 0 1px,transparent 1px 60px),linear-gradient(135deg,#f6f3ea,#fff)}
+.room-spatial .room-head:before{background:radial-gradient(ellipse at 80% 50%,#bdd9d48c,transparent 60%)}
+.room-memory .room-head:before{background:radial-gradient(ellipse at 90% 45%,#cdd3c8ad,transparent 65%)}
+.room-divergent .room-head:before{background:radial-gradient(ellipse at 88% 25%,#d4ddeca0,transparent 60%)}
+.room-convergent .room-head:before{background:radial-gradient(ellipse at 90% 55%,#e3d9c19c,transparent 60%)}
+.room-personality .room-head:before{background:radial-gradient(ellipse at 88% 35%,#c9decab0,transparent 60%)}
+dialog:has(.journal){max-width:1120px;width:calc(100% - 24px);height:92svh;max-height:1000px;background:#fbfcf8;border-radius:8px}
+dialog:has(.journal) #modal-content{display:block}
+.journal{padding:34px 44px 28px;color:#161d18}
+.journal-head{position:relative;padding-right:110px;border-bottom:1px solid #cad2c5;padding-bottom:20px}
+.journal-head h1{font:400 43px/1.08 Georgia,serif;letter-spacing:-.025em;margin:14px 0 9px}
+.journal-head p.journal-sub{font:italic 16px/1.5 Georgia,serif;color:#637662;margin:0}
+.journal-streak{position:absolute;right:0;bottom:25px;font:italic 15px Georgia,serif;color:#176b4b}
+.journal-nav{display:flex;justify-content:flex-start;gap:30px;padding:14px 0;border-bottom:1px solid #dfe4d9;font-size:12px;letter-spacing:.05em;flex-wrap:wrap}
+.journal-nav button{padding:8px 0;min-height:36px;border-bottom:2px solid transparent}
+.journal-nav button[aria-pressed=true]{border-color:#176b4b;color:#176b4b}
+.journal-body{padding-top:22px}
+.journal h2{font:400 29px/1.2 Georgia,serif;margin:7px 0 12px}
+.journal h3{font:400 17px/1.25 Georgia,serif;margin:8px 0}
+.journal-body>p{max-width:780px}
+.journal-actions{display:flex;justify-content:flex-end;margin-top:16px}
+.journal p.journal-local{border-top:1px solid #d9dfd5;margin:26px 0 0;padding-top:15px;font-size:11px;color:#74816f}
+.journal p.journal-caveat{font-size:12px;margin-top:24px;color:#687961}
+.portrait-stage{position:relative;height:440px;overflow:hidden;background:radial-gradient(ellipse at 50% 70%,#fff 0,#edf1eac9 60%,#fafbf7 90%);border-radius:50% 50% 4px 4px/12% 12% 4px 4px}
+.portrait-horizon{position:absolute;left:-15%;right:-15%;bottom:0;height:40%;background:radial-gradient(ellipse at 50% 60%,#d5ded073,transparent 65%)}
+.portrait-mirror{position:absolute;height:96%;width:43%;object-fit:contain;left:28.5%;bottom:3%;filter:drop-shadow(0 11px 6px #1d352219)}
+.portrait-bowler{position:absolute;width:18%;max-height:58%;object-fit:contain;left:41%;bottom:2%;filter:drop-shadow(0 7px 4px #16382320)}
+.portrait-object{position:absolute;width:17%;height:34%;object-fit:contain;transform:translate(-50%,-50%) scale(var(--scale));animation:portrait-drift 7s ease-in-out infinite;animation-delay:var(--delay);filter:drop-shadow(0 16px 10px #25442b18)}
+@keyframes portrait-drift{50%{transform:translate(-50%,calc(-50% - 7px)) scale(var(--scale))}}
+@keyframes keepsake-float{50%{transform:translateY(-5px)}}
+.journal p.portrait-caption{font:italic 13px/1.65 Georgia,serif;text-align:center;max-width:730px;margin:16px auto 24px;color:#687960}
+.portrait-records{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.portrait-record{padding:14px 16px;border:1px solid #dde2d7;border-radius:3px;background:#ffffff9e}
+.portrait-record img{width:52px;height:52px;object-fit:contain;float:right;margin:0 -5px 5px 6px}
+.portrait-record h3{font-size:16px;min-height:40px}
+.portrait-record p{font-size:11px;line-height:1.6;margin:5px 0 0;clear:both}
+.portrait-record p.record-number{font:17px Georgia,serif;color:#176b4b;margin:12px 0 9px}
+.portrait-lock{position:relative;text-align:center;padding:34px 16px 26px;background:radial-gradient(ellipse,#e4ece499,transparent 70%)}
+.locked-mirror{width:150px;height:170px;object-fit:contain;opacity:.65;filter:saturate(.3)}
+.portrait-lock p{max-width:480px;margin:10px auto}
+.portrait-lock p.portrait-count{font:32px Georgia,serif;color:#176b4b}
+.journey-checklist{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:12px;color:#66745f}
+.journey-checklist li{border-top:1px solid #e0e5db;padding:12px 4px}
+.weekly-row{display:grid;grid-template-columns:48px 190px 1fr;align-items:center;gap:8px 18px;padding:14px 0;border-bottom:1px solid #dde4d6}
+.weekly-row>img{width:48px;height:48px;object-fit:contain}
+.weekly-row>p{grid-column:2/-1;margin:0;font-size:11px}
+.week-points{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.week-point{display:flex;flex-direction:column;align-items:center;gap:7px;min-height:55px;border-left:1px solid #dce2d7}
+.week-point small{font-size:10px;color:#7c8778}.week-point strong{font:18px Georgia,serif;color:#176b4b}
+.keepsake-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px 14px;margin-top:24px}
+.keepsake{background:radial-gradient(ellipse at 50% 50%,#e7ede28c,transparent 70%);text-align:center;padding:10px}
+.keepsake>img{width:100%;height:160px;object-fit:contain;filter:drop-shadow(0 14px 7px #26482b16)}
+.keepsake p{font:italic 12px Georgia,serif;color:#176b4b}.keepsake.undiscovered>img{opacity:.19;filter:grayscale(1)}
+.archive-form{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:440px;margin:28px 0}
+.archive-form label,.archive-form input,.archive-form .primary,.archive-status{grid-column:1/-1}
+.archive-form label{font-size:12px;color:#4c624c}.archive-form input{padding:14px;border:1px solid #b7c7b6;border-radius:3px;background:#fff;color:#253d2b;font:18px Georgia,serif;width:100%}
+.archive-empty{padding:30px;background:#eaf0e5}
+:focus-visible{outline:2px solid #176b4b;outline-offset:4px}
+.door:focus-visible strong{opacity:1!important;outline:2px solid #176b4b;outline-offset:3px}
+@media(max-width:650px){
+ .journal{padding:26px 18px 22px}.journal-head{padding-right:0;padding-top:16px}.journal-head h1{font-size:32px}.journal-streak{position:static;margin-top:14px;font-size:13px}.journal-nav{gap:18px;font-size:11px;justify-content:space-between}.journal-nav button{min-height:40px}
+ .portrait-stage{height:310px}.portrait-mirror{width:64%;left:18%;height:93%}.portrait-bowler{width:29%;left:35.5%;bottom:2%}.portrait-object{width:25%;height:26%}
+ .portrait-records,.keepsake-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.portrait-record{padding:12px}.portrait-record img{width:36px;height:36px}.portrait-record h3{font-size:14px}.portrait-record p.record-number{font-size:15px}
+ .weekly-row{grid-template-columns:42px 1fr;gap:6px 10px}.weekly-row h3{font-size:17px}.weekly-row>p,.week-points{grid-column:1/-1}.week-point strong{font-size:16px}.keepsake>img{height:125px}.keepsake h3{font-size:15px}
+ .journey-checklist{grid-template-columns:1fr}.room-head{padding-right:0;min-height:155px}.room-emblem{width:85px;height:85px;right:-8px;top:-17px;opacity:.28}.room-title{position:relative;max-width:85%}.room-head:before{inset:-28px -18px 0}.room-lede{position:relative}.room-how{position:relative}
+ #archive-banner{top:12px;font-size:10px;padding:8px 10px}#archive-banner button{margin-left:10px}nav{gap:12px}
+ .dat-matrix{max-width:100%;table-layout:fixed}.dat-matrix th{max-width:60px;overflow-wrap:anywhere}.dat-out{overflow-x:auto}
+}
+@media(prefers-reduced-motion:reduce){.portrait-object,.room-emblem{animation:none!important}}

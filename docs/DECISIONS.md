@@ -70,3 +70,72 @@ Prevalece sobre os ajustes anteriores de orientação, sombra e tamanho dos port
 - Escala: portas com cerca de 2,6× a altura do Bowler na mesma profundidade. Personagem levemente menor; horizonte rebaixado para caber as portas internas.
 - Cada porta gira em perspectiva para o centro: ±22° nas pontas, ±15°, ±9° e ±4° nas internas. Portas afastadas do centro (±0,56 a ±1,34) para liberar a logo.
 - Porta à frente do personagem fica translúcida enquanto o cobre.
+
+
+## Desafios diários nas oito salas — 18/10/2026 (vigente)
+
+Cada porta abre um desafio do dia, igual para todos (semente = data de Brasília; #1 em 18/10/2026). Especificação e estudo em `docs/design/DAILY-CHALLENGES.md`. Código em `src/rooms/`.
+
+- Salas jogáveis: A Janela (matrizes por regras), Perto Demais (estilo Contexto), A Balança (séries), O Cubo no Céu (rotação mental), Chapéus que Somem (span espacial estilo Corsi), Dez Palavras Distantes (estilo DAT + palavra-âncora), A Chave (associações remotas autorais), O Espelho (IPIP Big Five, 5 itens por dia).
+- Placar só do jogo (acertos, palpites, tempo, sequência), cartão de compartilhar com emojis, progresso salvo por dia no navegador. Nada de QI, percentil ou faixa populacional; aviso fixo em cada sala.
+- Espaço semântico: vetores CC0 dos pacotes spaCy `pt_core_news_lg`/`en_core_web_lg` 3.8, 32 mil formas-base por idioma, PCA 128 sem centralização, int8. Gerado por `tools/build_word_space.py` a partir de `tools/word_lists.py` (palavras secretas, âncoras e bloqueios curados). Tudo roda no navegador.
+- ICAR descartado como fonte de itens: declarado para uso acadêmico exclusivo.
+- Hub: contador "X/8 desafios de hoje" e ✓ no rótulo da porta concluída no dia.
+
+## Diário, coleção e retratos pessoais — 18/10/2026 (vigente)
+
+Esta seção prevalece sobre propostas anteriores de relatório ou comparações populacionais.
+
+- O Diário contém Retrato, Sete dias, Coleção e Arquivo. O retrato só aparece depois das oito conclusões da data selecionada e do idioma atual. A oitava conclusão abre o retrato ao sair da sala; o botão no resultado também o abre.
+- Cena original: Bowler de costas diante de um espelho de céu e oito objetos. Personalidade tem tamanho fixo e nenhuma nota de desempenho. Sem índice geral, QI, percentis, faixas populacionais ou diagnóstico.
+- A escala dos demais objetos compara exclusivamente registros anteriores, do mesmo idioma e versão: acertos nas salas 1/3/4, sequência na 5, distância na 6, trios na 7, palpites de palavras resolvidas na 2. Salas 2/7 exigem igual número de dicas. Sem histórico comparável, tamanho neutro. Variação artística limitada a ±20%; não é escala psicométrica. Não comparar tempo, pois sair e retomar distorce tempo de parede.
+- A janela semanal mostra sete datas, lacunas explícitas, melhor marca quando comparável e mudança entre primeiro e último registro. Diferença entre tarefas, prática e familiaridade impedem interpretar isso como mudança de capacidade. Nenhum julgamento de consistência entre escalas diferentes.
+- Objetos da coleção derivam das conclusões por sala/data. Reabrir não duplica nada. Até quatro representações por porta mantêm a cena leve; o Diário conserva a contagem completa. Arquivo não mostra objetos de datas posteriores à selecionada.
+- Estados das portas: por descobrir; em andamento (marca bronze e luz quente no piso); concluída (✓, luz verde discreta e objeto). Objetos flutuam e surgem gradualmente; animações respeitam a preferência de movimento reduzido do sistema.
+- Nove desenhos originais em SVG, duas variações de material por peça, PNGs transparentes de 1024 px. Selecionada a versão de materiais opacos para legibilidade. São ilustrações vetoriais com volume por gradientes, não renders 3D. Originais preservados, sem alterar personagem, logo ou portais. Proveniência em `assets/collection.provenance.json`.
+- Cada sala reutiliza seu objeto em uma vinheta e recebe uma ambientação própria no cabeçalho. Área de respostas continua clara.
+- Arquivo disponível desde 18/10/2026 até ontem; no lançamento explica que abre amanhã. A primeira conclusão de cada desafio fica preservada. A sequência conta o dia real da conclusão de alguma sala, não a data do desafio arquivado; tolera o dia atual ainda não jogado.
+- Progresso separado por idioma. Chaves antigas mantidas no compartimento padrão pt-BR, com origem de idioma desconhecida; registros sem versão não entram nas comparações. O agregado antigo de personalidade permanece intacto, mas não é misturado com respostas datadas de origem conhecida.
+- Sons novos são síntese Web Audio autoral, CC0: chave, papel, vento e conclusão, desligados até ação explícita. O MP3 de licença desconhecida continua preservado fora de public e foi retirado do fluxo de reprodução.
+- Nenhuma conta, telemetria ou serviço externo. Se localStorage falhar, há continuidade apenas em memória durante a sessão. Limpar dados locais apaga o histórico.
+
+## Música no primeiro movimento — 18/10/2026 (vigente)
+
+Por solicitação do usuário, a trilha escolhida volta a tocar na prévia local assim que o jogador inicia um movimento (teclado, arrasto ou caminhada até uma porta). O primeiro gesto habilita também os efeitos. Desligar pelo botão impede religamento automático nos movimentos seguintes; o botão permite retomar. A trilha pausa com a aba oculta. O MP3 continua exclusivamente na rota de prévia local, sem cópia para public e sem alteração de licença ou autorização de publicação. Esta decisão substitui a retirada da trilha e a exigência de clicar primeiro no controle de som descritas acima.
+
+## Cards clássicos e salão mobiliado — 18/10/2026 (vigente)
+
+- A pedido do usuário, os desafios usam um fólio clássico de RPG: papel marfim, tecido verde, moldura dupla bronze e medalhões desenhados para cada sala. Gradientes decorativos dos cards foram substituídos por superfícies planas; a névoa do cenário permanece.
+- Cards ocupam a altura disponível sem rolagem interna. Desafio, instruções e resultado são painéis separados. Detalhes continuam acessíveis por botão; listas longas e páginas do Diário usam Anterior/Próxima. Não se elimina conteúdo para fazê-lo caber.
+- Desktop ganha coluna lateral; celular ganha cabeçalho compacto. Verificados 1366×768, 390×844 e 390×667, nas oito salas, instruções, resultados, detalhes e todas as páginas do Diário. Teclado e preferência de movimento reduzido preservados.
+- Salão recebe tapete xadrez verde/marfim em perspectiva, duas luminárias e dois quadros flutuantes. Objetos usam a projeção e a ordem de profundidade do cenário. Luminárias ficam apoiadas; quadros flutuam. O tapete é desenhado em Canvas, sem arquivo raster adicional.
+- Doze SVGs originais: oito medalhões, uma textura tecida, uma luminária e dois quadros. Fontes e versões de uso separadas; manifesto com hashes e proveniência em assets/salon.provenance.json. Integração para revisão visual, sem promover aprovação artística nem alterar os originais anteriores.
+- Regras, respostas, pontuação, histórico e início do som pelo movimento preservados. Correção incidental: Enter entre campos da sala divergente apenas avança ao próximo campo; envia somente no último.
+
+## Materiais gerados e piso contínuo — 18/10/2026 (vigente)
+
+A revisão do usuário rejeitou a decoração vetorial e o tapete solto. O salão agora usa imagens geradas com aparência 3D: luminária de seda verde/bronze/mármore com maçã orbital, quadro da escada e guarda-chuva, quadro da pedra com chapéu e pêndulo. São peças originais geradas pelo image_gen integrado, não desenhos SVG feitos por código. Os desenhos anteriores ficam preservados, mas não são mais usados na decoração do salão.
+
+O xadrez é uma textura gerada de piso têxtil contínuo, aplicada com perspectiva e baixa opacidade, sem moldura, franja, espessura ou sombra de tapete. Objetos decorativos estão em cantos de exploração à frente e além do conjunto das portas, em profundidades de .36 a 1.75 (portas até .04). Recebem sombra projetada; apenas os quadros flutuam, respeitando movimento reduzido.
+
+Cards recebem moldura gerada de laca/malaquita/bronze e textura gerada de marfim. Georgia unifica títulos, explicações e controles com quatro escalas tipográficas compartilhadas, adaptadas ao celular. A miniatura do portal correspondente substitui o medalhão vetorial. A paginação e separação entre jogo, ajuda e resultado permanecem.
+
+Seis PNGs novos e seus prompts completos estão registrados em assets/salon-raster.provenance.json, com originais preservados em assets/sources/salon-raster e cópias em public/assets/salon-raster. Integração para revisão visual, não aprovação artística presumida. Nenhuma pontuação ou dado salvo foi alterado.
+
+## Posição da decoração — 18/10/2026 (vigente)
+
+Por ajuste solicitado com referências visuais: o quadro da escada/guarda-chuva fica fixo na parede ao fundo, centralizado acima e atrás da logo BOWLER. O quadro da pedra com chapéu fica apoiado no chão no canto esquerdo, com sombra de contato e sem flutuação. Uma única luminária ocupa o eixo central do salão, entre a logo e a posição inicial do personagem; a segunda instância foi removida. A elevação do quadro de parede acompanha a escala responsiva do cenário. Esta distribuição substitui a anterior em cantos de exploração. Assets preservados, sem novas gerações.
+
+## Quadro do cavalo e escultura — 18/10/2026 (vigente)
+
+O quadro central foi substituído por uma nova geração frontal, sem perspectiva inclinada: cavalo de xadrez em mármore com chapéu preto e faixa verde, tabuleiro suspenso, escadarias e guarda-chuvas entre nuvens. Escala aumentada de 1,12 para 1,65 e elevação de 190 para 225, mantendo centralização sobre a logo. A luminária foi removida da cena e do carregamento.
+
+Nova escultura original gerada com aparência 3D: escadaria de mármore em laço, maçã de malaquita suspensa, chapéu preto e pedestal preto/verde/bronze. Apoiada no chão com sombra, no canto direito junto aos portais (x=2,4; y=0,35), em posição simétrica ao quadro de chão esquerdo; tamanho 2,2. O quadro esquerdo permanece. As duas novas imagens têm originais preservados, cópias de runtime e hashes no manifesto; prompts em assets/knight-sculpture-prompts.json e na proveniência de imagens do salão. A geração do quadro usa como referência a moldura anterior. Nenhuma mudança nos desafios ou dados salvos.
+
+## Imagens exclusivas das salas e caminhada — 18/10/2026 (vigente)
+
+O usuário rejeitou reutilizar portas ou quadros dentro dos cards. Cada sala agora tem uma imagem original gerada exclusiva, compartilhada apenas entre seu próprio cabeçalho e resultado: orrery de formas (abstrato), livro/pássaros/bússola (verbal), ábaco em espiral (numérico), cubo desmontado em giroscópio (espacial), ampulheta/pérolas/chapéu (memória), romã com ideias divergentes (divergente), três associações formando uma chave (convergente), busto sem rosto abrindo em facetas (personalidade). Nenhuma altera os estímulos ou as regras das questões.
+
+A moldura esticada foi retirada. Um novo ornamento de canto gerado é exibido em quatro instâncias rotacionadas, mantendo proporção; trilhos simples de verde/bronze fecham o contorno. Não se usa mais o quadro genérico no resultado. Nove PNGs novos com prompts em assets/room-art.provenance.json, fontes separadas e hashes no manifesto; integração para revisão, sem aprovação artística presumida.
+
+Caminhada: velocidade de .13 para .21 unidades/s, aproximadamente 62% maior. A fase da passada é preservada ao trocar direção, o balanço acompanha o ciclo completo em vez de reiniciar a cada frame e a câmera usa acompanhamento exponencial independente da taxa de atualização. Deslocamento continua sincronizado com o ciclo das pernas, direita continua usando a faixa esquerda espelhada existente. Renderização do piso usa faixas de 6 px em vez de 3 para reduzir o trabalho por frame. Não foram gerados novos sprites do personagem nem certificada uma taxa de 60 fps.

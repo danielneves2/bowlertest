@@ -1,0 +1,165 @@
+/* A bounded, paged folio. Ivory paper, green cloth and engraved brass; no UI gradients. */
+dialog#modal{--paper:#f0eddf;--cloth:#263f30;--brass:#a18b58;inset:0;margin:auto;width:min(1280px,calc(100% - 32px));height:calc(100dvh - 32px);max-height:860px;max-width:1280px;padding:0;border:6px double #91805b;border-radius:3px;background:var(--paper);overflow:hidden;box-shadow:0 20px 80px #14271d40,0 0 0 5px #263f30,0 0 0 6px #9d8c5e}
+#modal::backdrop{background:#e7eadce6;backdrop-filter:blur(4px)}
+#modal #modal-content{display:block;height:100%;min-height:0}
+#modal #close{right:10px;top:9px;width:32px;height:32px;border:1px solid #9b8a5e;border-radius:0;background:#f0eddf;color:#263f30;font:25px Georgia,serif}
+#modal p{line-height:1.45;color:#46503c}
+#modal .primary,#modal .ghost,#modal .folio-nav button{font:12px Georgia,serif;letter-spacing:.025em;text-transform:none;border-radius:1px;min-height:36px;padding:8px 16px;border:3px double #a18b58;box-shadow:0 2px 0 #192f2229;margin-top:0}
+#modal .primary{background:#263f30;color:#f7f0d9}#modal .ghost,#modal .folio-nav button{background:#e8e4d3;color:#263f30}
+#modal button:hover:not(:disabled){filter:brightness(1.06)}#modal button:focus-visible{outline:2px solid #ad8e42;outline-offset:3px}
+#modal input{background:#faf6e8;border-color:#9b967a;border-radius:0;font-family:Georgia,serif}
+#modal .room{height:100%;min-height:0;padding:0;display:grid;grid-template-columns:245px minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;gap:0;background:#f0eddf}
+#modal .room-head{grid-column:1;grid-row:1/-1;min-height:0;max-width:none;padding:35px 23px 90px;display:flex;flex-direction:column;align-items:flex-start;background:#263f30;border-right:4px double #aa9664;color:#eee8cd;isolation:isolate;overflow:hidden}
+#modal .room-head:before{inset:auto 0 0;height:58px;background:url('/assets/salon/checker-weave.svg') center/58px;border-top:4px double #aa9664;opacity:.65;z-index:-1}
+#modal .room-emblem{position:static;order:-1;width:128px;height:128px;opacity:1;filter:none;animation:none;margin:0 auto 22px;z-index:auto}
+#modal .room-title{font:400 32px/1.06 Georgia,serif!important;color:#f1e8cc!important;max-width:none;margin:14px 0!important}
+#modal .eyebrow{font:10px/1.5 Georgia,serif;letter-spacing:.12em}
+#modal .room-head .eyebrow{color:#c4b487}
+#modal .room-lede{font:italic 14px/1.5 Georgia,serif!important;color:#d8dcc9!important;margin:0 0 22px!important}
+#modal .room-how{font:13px Georgia,serif;border-bottom:1px solid #a18b58;color:#f1e8cc;background:none;padding:7px 0;margin-top:auto;letter-spacing:.04em}
+#modal .room-body,#modal .room-result,#modal .room-how-text{grid-column:2;grid-row:1;min-height:0;min-width:0;align-self:stretch;padding:35px 38px 18px;margin:0;max-width:none;border:0;border-radius:0;background:#f0eddf;overflow:visible}
+#modal .room-body{display:flex;align-items:center;justify-content:center;flex-direction:column}
+#modal .room-body>div{width:100%;max-width:780px}
+#modal .room[data-panel=game]>.room-result,#modal .room[data-panel=game]>.room-how-text,#modal .room[data-panel=result]>.room-body,#modal .room[data-panel=result]>.room-how-text,#modal .room[data-panel=help]>.room-body,#modal .room[data-panel=help]>.room-result{display:none}
+#modal .room-how-text{display:flex;flex-direction:column;justify-content:center;gap:18px;font:17px Georgia,serif}
+#modal .room-how-text p{font:16px/1.6 Georgia,serif;max-width:650px}
+#modal .room-result{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:18px}
+#modal .room-result:before{content:'◆';font:30px Georgia,serif;color:#a18b58;border:1px solid #a18b58;padding:16px 24px;transform:rotate(-5deg)}
+#modal .room-result-title{font:32px Georgia,serif;color:#263f30}
+#modal .room-result-summary{font:19px/1.4 Georgia,serif!important;max-width:600px}
+#modal .room-share{background:#e5e3d1;border:3px double #a18b58;border-radius:0;font:14px/1.7 Georgia,serif;padding:18px 28px;max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+#modal .room-result .room-again{margin:0!important}
+#modal .room-foot{grid-column:2;grid-row:2;padding:12px 28px 14px;border-top:1px solid #b6b69c;background:#e7e5d6;display:flex;flex-direction:column;gap:7px}
+#modal .room-note{margin:0!important;font-size:10px!important;line-height:1.3;color:#626a53!important}
+#modal .room-actions{gap:8px}.room-actions .ghost{min-height:34px!important}
+#modal .mx-grid{border-radius:0;box-shadow:0 4px 0 #b9af88;padding:9px;gap:6px;margin-bottom:14px;background:#304a36}
+#modal .mx-cell{width:clamp(52px,9.3dvh,86px);height:clamp(52px,9.3dvh,86px);border-radius:0;background:#f7f1de}
+#modal .mx-grid{grid-template-columns:repeat(3,auto)}#modal .mx-missing{background:#c7d3bc}
+#modal .mx-option,#modal .cube-option{border-radius:1px;border:3px double #8c9479;background:#f4efdd;box-shadow:0 3px 0 #bcb697}
+#modal .mx-options{grid-template-columns:repeat(6,minmax(0,72px));gap:9px}
+#modal .mx-top{font:11px Georgia,serif;letter-spacing:.06em;margin-bottom:12px}
+#modal .cube-sky{height:clamp(130px,26dvh,230px);max-width:340px;border:5px double #8d7c4f;border-radius:1px;background:#c0cec6;box-shadow:none}
+#modal .cube-options{grid-template-columns:repeat(4,minmax(0,115px));gap:10px}
+#modal .hats-field{height:clamp(200px,43dvh,350px);background:#dce0ce url('/assets/salon/checker-weave.svg') center/90px;border:6px double #9c8c59;border-radius:2px}
+#modal .hat{filter:drop-shadow(0 4px 2px #17281e60)}#modal .hat.lit{filter:drop-shadow(0 0 7px #c5a95f)}#modal .hat.lit .band{fill:#d3c181}
+#modal .num-seq{font-size:clamp(27px,4vw,43px)}
+#modal .key-cues span{font:25px Georgia,serif;background:#e8e4d1;border:3px double #998a5f;border-radius:1px;box-shadow:0 3px 0 #b1aa87;padding:14px 17px}
+#modal .close-row{background:#e2e2cd;border:1px solid #a5ae92;border-radius:0;padding:7px 12px;font-size:14px}
+#modal .close-bar{border-radius:0}.close-row.near .close-bar{background:#a7c0a3}.close-row.mid .close-bar{background:#cec39d}.close-row.far .close-bar{background:#d0b9a0}
+.guess-page{display:grid;gap:5px;padding:0;margin:0;list-style:none}.close-list{display:block;list-style:none}
+.nearest-page{display:grid;grid-template-columns:1fr 1fr;gap:8px}.nearest-page p{margin:0!important;padding:8px;border-bottom:1px solid #c5c4a9;font:14px Georgia,serif}
+.close-game.completed .close-form,.close-game.completed .close-tools,.close-game.completed .close-last{display:none}
+.word-detail-switch{margin-top:14px!important}.close-reveal ol{columns:unset}
+#modal .dat-anchor{font-size:10px;letter-spacing:.06em;margin-bottom:10px}#modal .dat-anchor strong{border-radius:0;font-size:19px;background:#e0e3cc;border:1px solid #9aa486}
+#modal .dat-inputs{grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 22px}#modal .dat-inputs input{padding:7px 10px;font-size:16px}#modal .dat-inputs small{min-height:12px;font-size:10px}
+.dat.completed>.dat-anchor,.dat.completed>.dat-inputs,.dat.completed>.dat-msg,.dat.completed>.dat-go{display:none}
+#modal .dat-out{overflow:visible}.dat-scores{justify-content:center}#modal .dat-scores strong{font:29px Georgia,serif}.dat-matrix{margin:0 auto}.dat-out h3{text-align:center}
+#modal .dat-matrix td{background:#dedfc9;border-radius:0}.dat-matrix td.close{color:#6c4330}.dat-matrix td.far{color:#234b31}
+#modal .mirror-frame{width:min(340px,90%);aspect-ratio:1.7;background:#cdd8cb;border:6px double #a58d55;box-shadow:0 0 0 5px #263f30;border-radius:48%;padding:26px;margin-bottom:18px}
+#modal .mirror-text{font:italic 21px/1.3 Georgia,serif!important}.mirror-profile{display:none}.mirror.completed .mirror-profile{display:block}
+#modal .mirror-option{background:#ece7d3;border:3px double #909a7a;border-radius:1px;padding:9px 7px;font:12px/1.2 Georgia,serif}
+#modal .mirror-scale{grid-template-columns:repeat(5,1fr);gap:6px}#modal .trait-bar{background:#c9cfb6;border-radius:0}
+.folio-nav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px;flex:none;font:12px Georgia,serif;color:#586546;letter-spacing:.04em}
+.folio-nav span{min-width:48px;text-align:center}.folio-nav button:disabled{opacity:.35;cursor:default}
+#modal .journal{height:100%;padding:24px 32px 16px;display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;background:#f0eddf}
+#modal .journal-head{padding:0 140px 12px 0;border-color:#9c8a5a}
+#modal .journal-head h1{font:32px Georgia,serif;margin:6px 0 5px}
+#modal .journal-sub{font-size:13px!important}.journal-head .eyebrow{margin:0!important}
+#modal .journal-streak{bottom:17px;font-size:14px}
+#modal .journal-nav{padding:5px 0;gap:22px;border-bottom:3px double #9d8d5f;letter-spacing:.03em;flex-wrap:nowrap}
+#modal .journal-nav button{font:13px Georgia,serif;min-height:34px}
+#modal .journal-body{padding-top:14px;min-height:0;display:flex;flex-direction:column}
+.folio-pages{flex:1;min-height:0;display:flex;flex-direction:column}.folio-page{min-height:0;flex:1;display:flex;flex-direction:column;justify-content:center;gap:12px}
+#modal .folio-page>p{margin:0;font-size:12px;max-width:none}#modal .folio-page h2{font:25px Georgia,serif;margin:0}
+#modal .journal-actions{padding-top:10px;margin:0;border-top:1px solid #b5b59b}
+#modal .portrait-stage{height:auto;min-height:0;flex:1;width:100%;border:3px double #aa996d;border-radius:0;background:#dfe4d7}
+#modal .portrait-horizon{height:32%;left:0;right:0;background:url('/assets/salon/checker-weave.svg') center/80px;transform:perspective(300px) rotateX(30deg);transform-origin:bottom;opacity:.45}
+#modal .portrait-caption{font:italic 12px/1.4 Georgia,serif;margin:0;max-width:none}
+#modal .portrait-records{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+#modal .portrait-record{border:4px double #9c8d61;border-radius:1px;background:#e6e5d2;padding:18px 15px;min-height:190px}
+#modal .portrait-record img{float:none;display:block;width:82px;height:82px;margin:0 auto 8px}#modal .portrait-record h3{min-height:0;margin:5px 0;text-align:center}
+#modal .portrait-record p{font-size:12px;line-height:1.4;text-align:center}#modal .portrait-record .record-number{font-size:17px}
+#modal .portrait-lock{padding:0;background:none}.portrait-lock .locked-mirror{height:130px;width:130px}#modal .portrait-lock h2{font-size:25px}#modal .portrait-lock p{font-size:13px;line-height:1.4;margin:8px auto}
+#modal .journey-checklist{grid-template-columns:1fr 1fr;gap:6px;margin:0}.journey-checklist li{border-color:#aeb398;padding:12px 8px}
+#modal .weekly-row{grid-template-columns:54px 180px 1fr;padding:12px;border:3px double #a4a184;margin-bottom:12px}.weekly-row>p{font-size:12px!important}
+#modal .week-point{border-color:#a6af91}.weekly-row h3{font-size:17px}
+#modal .keepsake-grid{margin:0;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.keepsake{background:none;border:3px double #a7a180}.keepsake>img{height:clamp(90px,19dvh,170px);filter:none}.keepsake h3{font-size:16px}
+#modal .archive-form{margin:10px 0;gap:10px}.archive-empty{background:#e1e4d0;padding:20px}
+@media(max-width:700px){
+ dialog#modal{width:calc(100% - 16px);height:calc(100dvh - 16px);max-height:none;border-width:4px;box-shadow:0 0 0 2px #263f30}
+ #modal .room{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
+ #modal .room-head{grid-row:1;grid-column:1;display:block;padding:14px 48px 12px 76px;border-right:0;border-bottom:3px double #aa9664;overflow:visible}
+ #modal .room-emblem{position:absolute;left:10px;top:15px;width:56px;height:56px;margin:0}
+ #modal .room-head:before{display:none}#modal .room-head .eyebrow{font-size:8px;letter-spacing:.07em}
+ #modal .room-title{font-size:23px!important;line-height:1.08!important;margin:6px 0!important}
+ #modal .room-lede{font-size:12px!important;line-height:1.35!important;margin:0!important}
+ #modal .room-how{font-size:11px;margin:7px 0 0;padding:0 0 2px;min-height:18px}
+ #modal #close{top:7px;right:7px;width:28px;height:28px}
+ #modal .room-body,#modal .room-result,#modal .room-how-text{grid-row:2;grid-column:1;padding:12px 16px;min-height:0}
+ #modal .room-foot{grid-row:3;grid-column:1;padding:8px 12px;gap:5px}#modal .room-note{font-size:9px!important}
+ #modal .room-actions .ghost{font-size:11px;padding:6px 12px;min-height:32px!important}
+ #modal .room-result{gap:12px}#modal .room-result:before{font-size:20px;padding:9px 15px}#modal .room-result-title{font-size:25px}#modal .room-result-summary{font-size:16px!important}#modal .room-share{padding:12px;font-size:12px}#modal .room-again{font-size:12px!important}
+ #modal .mx-grid{padding:6px;gap:4px;margin-bottom:10px}#modal .mx-cell{width:clamp(42px,8.5dvh,70px);height:clamp(42px,8.5dvh,70px)}
+ #modal .mx-options{grid-template-columns:repeat(3,minmax(0,clamp(42px,8dvh,64px)));gap:6px}#modal .mx-msg{font-size:13px!important;min-height:16px;margin:8px 0 0!important}
+ #modal .cube-sky{height:clamp(100px,20dvh,175px);max-width:260px;margin-bottom:12px}#modal .cube-options{grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}#modal .cube-option{padding:5px}
+ #modal .hats-field{height:clamp(190px,34dvh,310px);background-size:60px}#modal .hats-start{margin-top:10px}
+ #modal .key-cues{gap:7px;margin:10px 0}#modal .key-cues span{font-size:19px;padding:10px;min-width:70px}#modal .key-form input{width:55%;font-size:16px;padding:9px}
+ #modal .mirror-frame{width:85%;max-height:170px;margin-bottom:14px;padding:22px}#modal .mirror-text{font-size:17px!important}.mirror-step{top:11%;font-size:9px}
+ #modal .mirror-scale{grid-template-columns:1fr;gap:5px}#modal .mirror-option{padding:6px 10px;min-height:33px;font-size:11px;flex-direction:row;gap:10px}#modal .mirror-option b{font-size:15px}
+ #modal .mirror-profile{margin:0}#modal .trait{grid-template-columns:1fr 1fr;gap:6px;margin:10px 0}
+ #modal .dat-inputs{gap:2px 20px;padding-left:17px}#modal .dat-inputs input{font-size:16px;padding:5px 7px}#modal .dat-inputs small{font-size:9px;min-height:11px;line-height:1.15}
+ #modal .dat-anchor{gap:8px;margin-bottom:8px}#modal .dat-anchor strong{font-size:17px;padding:3px 8px}#modal .dat-msg{font-size:11px!important;min-height:14px;margin:4px 0!important}#modal .dat-go{padding:7px 12px;font-size:11px}
+ #modal .dat-scores{gap:15px;margin:0 0 10px}#modal .dat-scores strong{font-size:24px}#modal .dat-scores span{font-size:8px;letter-spacing:0}
+ #modal .dat-matrix{border-spacing:2px;font-size:10px;width:100%;table-layout:fixed}#modal .dat-matrix th{font-size:10px;width:54px;overflow-wrap:anywhere}#modal .dat-matrix th.col{width:auto;font-size:9px}#modal .dat-matrix td{width:auto;height:21px;font-size:10px}
+ #modal .dat-caveat{font-size:10px!important;line-height:1.3!important}
+ #modal .close-tools{gap:6px;margin:8px 0}#modal .close-tools .ghost{font-size:11px;padding:5px 10px;min-height:30px}.close-form .primary{padding:8px 14px!important}.close-form input{font-size:16px!important;padding:8px!important}
+ #modal .close-msg{font-size:12px!important;min-height:16px;margin:6px 0!important}.close-last{margin-bottom:6px}#modal .close-row{font-size:12px;padding:6px 9px}.nearest-page p{font-size:12px;padding:7px}
+ #modal .folio-nav{margin-top:9px;font-size:11px}#modal .folio-nav button{padding:5px 12px;min-height:30px;font-size:11px}
+ #modal .journal{padding:15px 14px 10px;grid-template-rows:auto auto minmax(0,1fr) auto}#modal .journal-head{padding:8px 20px 8px 0}#modal .journal-head h1{font-size:25px;margin:6px 0}#modal .journal-sub{font-size:11px!important;line-height:1.3!important}#modal .journal-streak{position:static;font-size:11px;margin-top:7px}
+ #modal .journal-nav{gap:6px;justify-content:space-between;padding:3px 0}#modal .journal-nav button{font-size:11px;min-height:31px;padding:6px 0}
+ #modal .journal-body{padding-top:10px}#modal .journal-actions{padding-top:7px}#modal .journal-actions .ghost{min-height:30px;font-size:11px;padding:6px 12px}
+ #modal .folio-page{gap:10px}#modal .folio-page h2{font-size:21px}#modal .folio-page>p{font-size:11px;line-height:1.4}
+ #modal .portrait-stage{flex:1;height:auto}#modal .portrait-caption{font-size:10px!important;line-height:1.35!important}#modal .portrait-records{grid-template-columns:1fr 1fr;gap:8px}#modal .portrait-record{padding:10px;min-height:0}#modal .portrait-record img{width:65px;height:65px}#modal .portrait-record p{font-size:11px}#modal .portrait-record h3{font-size:15px}
+ #modal .portrait-lock .locked-mirror{height:105px}#modal .portrait-lock h2{font-size:23px}#modal .journey-checklist{grid-template-columns:1fr;font-size:11px;gap:3px}#modal .journey-checklist li{padding:8px 4px}
+ #modal .weekly-row{grid-template-columns:40px 1fr;padding:12px;gap:10px;margin-bottom:0}#modal .weekly-row .week-points,#modal .weekly-row>p{grid-column:1/-1}#modal .weekly-row h3{font-size:18px}#modal .weekly-row p{font-size:11px!important}
+ #modal .keepsake-grid{grid-template-columns:1fr 1fr;gap:10px}#modal .keepsake{padding:8px}#modal .keepsake>img{height:100px}#modal .keepsake h3{font-size:15px}#modal .keepsake p{font-size:11px}
+}
+@media(max-height:700px) and (max-width:700px){#modal .room-lede{font-size:11px!important}#modal .room-head{padding-top:10px;padding-bottom:8px}#modal .room-title{font-size:21px!important}#modal .mirror-frame{max-height:125px}#modal .mirror-text{font-size:15px!important}#modal .mirror-option{min-height:29px;padding:4px 8px}#modal .journal-sub{display:none}#modal .portrait-record img{width:48px;height:48px}}
+
+/* Generated materials, shared type scale. The frame is nine-sliced, not stretched as an illustration. */
+#modal{--folio-title:28px;--folio-body:15px;--folio-control:14px;--folio-caption:12px;font-family:Georgia,'Times New Roman',serif}
+dialog#modal{border:18px solid transparent;border-image:url('/assets/salon-raster/card-frame.png') 180 170 185 165 / 26px / 0 stretch;background:#f1edde url('/assets/salon-raster/ivory-vellum.png') center/640px;box-shadow:0 24px 70px #17291d50}
+#modal .room,#modal .journal{background:transparent}
+#modal .room-body,#modal .room-result,#modal .room-how-text{background:transparent}
+#modal .room-head{background-color:#21372b;background-image:url('/assets/salon-raster/ivory-vellum.png');background-blend-mode:multiply;background-size:580px;border-right-color:#ad945f;box-shadow:inset -8px 0 22px #0a160f30}
+#modal .room-head:before{height:90px;background:url('/assets/salon-raster/floor-woven.png') center/200px;opacity:.15;border:0;mask-image:linear-gradient(transparent,#000)}
+#modal .room-emblem{object-fit:contain;width:130px;height:155px;filter:drop-shadow(3px 9px 6px #0004);margin-bottom:10px}
+#modal .room-title,#modal .journal-head h1,#modal .folio-page h2,#modal .room-result-title{font-family:Georgia,serif!important;font-size:var(--folio-title)!important;font-weight:400;line-height:1.15!important}
+#modal .room-lede,#modal .room-how-text p,#modal .room-result-summary,#modal .mirror-text{font-family:Georgia,serif!important;font-size:var(--folio-body)!important;line-height:1.4!important}
+#modal button,#modal input,#modal .room-how{font-family:Georgia,serif!important}
+#modal .primary,#modal .ghost,#modal .folio-nav button,#modal .journal-nav button,#modal .room-how{font-size:var(--folio-control)!important}
+#modal .eyebrow,#modal .room-note,#modal .room-again,#modal .journal-sub,#modal .room-share{font-family:Georgia,serif;font-size:var(--folio-caption)!important;line-height:1.35;letter-spacing:.025em}
+#modal .room-foot{background:#e8e1cb80;border-top:1px solid #ad9a6d}
+#modal .mx-option,#modal .cube-option,#modal .key-cues span,#modal .mirror-option{background-image:url('/assets/salon-raster/ivory-vellum.png');background-size:360px;box-shadow:inset 0 1px 0 #fff8,0 3px 6px #40361c18}
+#modal .room-result:before{content:'';width:95px;height:90px;padding:0;border:0;transform:none;background:url('/assets/salon-raster/frame-stone-3d.png') center/contain no-repeat}
+#modal .portrait-horizon{background-image:url('/assets/salon-raster/floor-woven.png');background-size:180px}
+@media(max-width:700px){
+ #modal{--folio-title:22px;--folio-body:13px;--folio-control:12px;--folio-caption:10px}
+ dialog#modal{border-width:8px;border-image-width:15px}
+ #modal .room-emblem{width:49px;height:72px;left:9px;top:12px}
+ #modal .room-head{padding-left:67px;padding-right:38px}
+ #modal .room-result:before{height:65px;width:65px}
+ #modal .room-title{margin-top:5px!important;margin-bottom:5px!important}
+}
+/* Room-specific generated artwork and undistorted corner fittings. */
+dialog#modal{border:12px solid #233b2d;border-image:none;outline:1px solid #a9915e;box-shadow:0 20px 65px #14271d50,inset 0 0 0 2px #aa9360,0 0 0 3px #c7b98b;border-radius:3px}
+.card-corners{position:absolute;inset:0;pointer-events:none;z-index:3}.card-corners i{position:absolute;width:88px;height:88px;background:url('/assets/room-art/corner.png') center/contain no-repeat}.card-corners i:nth-child(1){top:0;left:0}.card-corners i:nth-child(2){top:0;right:0;transform:rotate(90deg)}.card-corners i:nth-child(3){bottom:0;right:0;transform:rotate(180deg)}.card-corners i:nth-child(4){bottom:0;left:0;transform:rotate(270deg)}
+#modal #close{z-index:4;top:14px;right:14px;background:#f4eedc;box-shadow:0 2px 7px #17221830}
+#modal .room-head{padding-top:35px;border-right:1px solid #9d8a5b;box-shadow:inset -5px 0 14px #07160c35}
+#modal .room-emblem{width:190px;height:185px;max-width:100%;object-fit:contain;margin:0 auto 16px;filter:drop-shadow(0 8px 10px #0003)}
+#modal .room-result:before{background-image:var(--room-art);width:150px;height:125px;flex-shrink:0;filter:drop-shadow(0 5px 7px #53412820)}
+#modal .room-share{padding:18px 24px;border:1px solid #aa986b;border-radius:2px;box-shadow:inset 0 0 0 4px #e4dcc4;background:#eee7d6}
+#modal .room-foot{padding-right:32px;padding-left:28px}
+@media(max-width:700px){dialog#modal{border-width:7px}.card-corners i{width:52px;height:52px}#modal #close{top:10px;right:10px}#modal .room-head{padding-top:15px}#modal .room-emblem{width:56px;height:70px;left:6px;top:16px;margin:0}#modal .room-result:before{width:88px;height:78px}#modal .room-foot{padding-right:16px;padding-left:16px}#modal .room-share{padding:12px 16px}}
+#modal #close{top:22px;right:26px}
+@media(max-width:700px){#modal #close{top:18px;right:18px}.card-corners i{width:44px;height:44px}}

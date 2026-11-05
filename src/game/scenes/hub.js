@@ -4,7 +4,7 @@ export const DOOR_Y=-.60;
 export const DOOR_DEPTHS=[.04,-.20,-.44,-.68,-.68,-.44,-.20,.04];
 // Distance (world units) at which a revealed portal becomes "focused" and can be entered with a key.
 export const NEAR_RADIUS=.15;
-export const SPEED=.13;
+export const SPEED=.21;
 
 export function advance(state,input,dt){
  const length=Math.hypot(input.x,input.y);if(!length)return {...state,moving:false,distance:0};

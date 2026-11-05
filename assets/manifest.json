@@ -1084,6 +1084,1025 @@
         0,
         254
       ]
+    },
+    {
+      "path": "assets/sources/collection/abstract-sculpture.png",
+      "status": "original-source",
+      "bytes": 210649,
+      "sha256": "12b913b053932b63ddfb7552f717d5f25dd8551f294146d51df4f6ec0ee5c390",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/abstract-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2671,
+      "sha256": "13a6a354302b4bfb985dd7d6940e97858ac2cf365ca3a60bd2f5e82685210a30",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/abstract-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2684,
+      "sha256": "435559eecc3adfb7d014dbb359f8de98c65e3ddc5422784ba3f245219de69e67",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/convergent-sculpture.png",
+      "status": "original-source",
+      "bytes": 108569,
+      "sha256": "c17869c62a31ba125bc921a82b607012e3521a4f47b45af0609c718b64c73771",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/convergent-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2211,
+      "sha256": "39ad9a928dbbe3b68cccb2caca080635f7a96340c66a23f7d55f2b7dc7c75dca",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/convergent-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2224,
+      "sha256": "d574aae5f1b99282e31dcb790c28c45b6d8d2ca6d83da503219b6c9e9ac36bd5",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/divergent-sculpture.png",
+      "status": "original-source",
+      "bytes": 148453,
+      "sha256": "51f56e7719d19a06d92118149febe3f21ad47b8e4f6198476ac7191c01c16d59",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/divergent-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2763,
+      "sha256": "36bbcc619dc45b2b9640b7ab142815cf577ae1eb8a2eb6b29143d2ee01287f04",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/divergent-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2776,
+      "sha256": "1c50e98765fb4f0b3a9809c00e47926f25af0728746b3be0972cc152d2d9761c",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/memory-sculpture.png",
+      "status": "original-source",
+      "bytes": 160680,
+      "sha256": "5bffb6b397c62a801622825f32e3b7f257986b410b93ec4d416d039ada79d36d",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/memory-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2241,
+      "sha256": "4491a6c45065d0b6fa1311933c0ecd823a1abe6d76d7d45de4aa9e7d7a15342f",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/memory-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2254,
+      "sha256": "5556fa75e01084381c87ebaed1f8548eea135cffbc9bb2c8e88151a0437e2a15",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/mirror-sculpture.png",
+      "status": "original-source",
+      "bytes": 255618,
+      "sha256": "2f87c424f2904a521453083f25215006014f6e4e324f782cdc0c25d7e13656bc",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/mirror-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2388,
+      "sha256": "4bb461120f383a9460b3a3b66e22357d45b3b6f834d2b3a6d5988485072b095f",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/mirror-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2401,
+      "sha256": "e41431b90e54505c0fd9c0facbd31d334205df1d39cb92cb87e1312c4d7c2d77",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/numerical-sculpture.png",
+      "status": "original-source",
+      "bytes": 98996,
+      "sha256": "09583e228796aa1ad1021540c90c25e71aa0dd066a8c9658d76d60ef87dbbfdf",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/numerical-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2811,
+      "sha256": "1d1bfb37f4e8064cb2f34f43a9997c72fdd3e918b4e25da6d1b198b0e88efffc",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/numerical-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2824,
+      "sha256": "aabe2af9d4c5666df7a0533f4d43db888aca5832e52b5d100065eaea63ba3a4f",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/personality-sculpture.png",
+      "status": "original-source",
+      "bytes": 264652,
+      "sha256": "bbe73b43ecc107295b1694f667ef46fb5ab7cf8db75617ee7a028762d529612d",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/personality-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2561,
+      "sha256": "9f8a0c745fe2e588bf0eac16945dde97cbc7b9cc05f234a498cabbbb2464ba1e",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/personality-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2574,
+      "sha256": "2e816d3dd15d9bf45efb612a89d367dbb8e05f7f25d641aed5cd4970271d415d",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/spatial-sculpture.png",
+      "status": "original-source",
+      "bytes": 164133,
+      "sha256": "6f656a656c334e81695b94f176bccc32d7c7adf178c5a79d08e23c4519765ee4",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/spatial-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2572,
+      "sha256": "21198f19895cbffd661af5a0eeacf628fe5dda967ac0135d56a88686129c8cec",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/spatial-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2585,
+      "sha256": "a7d9a1371ec810824698de9628bfdefefa787228eeb175450491fef59b4688c9",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/verbal-sculpture.png",
+      "status": "original-source",
+      "bytes": 180608,
+      "sha256": "d3997d8e78f4cbef6d2c9ae6ae460b738c1482949af3182c4ad9478c614b2635",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/collection/verbal-sculpture.svg",
+      "status": "original-source",
+      "bytes": 2652,
+      "sha256": "f0cba55d7b08dce35334f0422af9101afa851b197ebbaa97bc5f1632393e54c0",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "assets/sources/collection/verbal-study.svg",
+      "status": "original-study-not-integrated",
+      "bytes": 2665,
+      "sha256": "a1cabeacbd5c85c5c501902f508817bbbd022f8a3294e41b8967894b1a2f649b",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "SVG"
+    },
+    {
+      "path": "public/assets/collection/abstract.png",
+      "status": "original-integrated-for-review",
+      "bytes": 210649,
+      "sha256": "12b913b053932b63ddfb7552f717d5f25dd8551f294146d51df4f6ec0ee5c390",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/collection/convergent.png",
+      "status": "original-integrated-for-review",
+      "bytes": 108569,
+      "sha256": "c17869c62a31ba125bc921a82b607012e3521a4f47b45af0609c718b64c73771",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/collection/divergent.png",
+      "status": "original-integrated-for-review",
+      "bytes": 148453,
+      "sha256": "51f56e7719d19a06d92118149febe3f21ad47b8e4f6198476ac7191c01c16d59",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/collection/memory.png",
+      "status": "original-integrated-for-review",
+      "bytes": 160680,
+      "sha256": "5bffb6b397c62a801622825f32e3b7f257986b410b93ec4d416d039ada79d36d",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/collection/mirror.png",
+      "status": "original-integrated-for-review",
+      "bytes": 255618,
+      "sha256": "2f87c424f2904a521453083f25215006014f6e4e324f782cdc0c25d7e13656bc",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/collection/numerical.png",
+      "status": "original-integrated-for-review",
+      "bytes": 98996,
+      "sha256": "09583e228796aa1ad1021540c90c25e71aa0dd066a8c9658d76d60ef87dbbfdf",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/collection/personality.png",
+      "status": "original-integrated-for-review",
+      "bytes": 264652,
+      "sha256": "bbe73b43ecc107295b1694f667ef46fb5ab7cf8db75617ee7a028762d529612d",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/collection/spatial.png",
+      "status": "original-integrated-for-review",
+      "bytes": 164133,
+      "sha256": "6f656a656c334e81695b94f176bccc32d7c7adf178c5a79d08e23c4519765ee4",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "public/assets/collection/verbal.png",
+      "status": "original-integrated-for-review",
+      "bytes": 180608,
+      "sha256": "d3997d8e78f4cbef6d2c9ae6ae460b738c1482949af3182c4ad9478c614b2635",
+      "provenance": "assets/collection.provenance.json",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/sources/audio/bowler-cues-v1.js",
+      "status": "original-source",
+      "bytes": 1723,
+      "sha256": "35ffa0ad557de85631b75b7b75527e033a957876686a99b5e70501774d96a7f9",
+      "provenance": "assets/audio-cues.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/crest-abstract.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1162,
+      "sha256": "31720f6e35dbdc00be831c614185eda3879f90dedf81555bc28ecaae9cc48965",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/crest-abstract.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1162,
+      "sha256": "31720f6e35dbdc00be831c614185eda3879f90dedf81555bc28ecaae9cc48965",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/crest-verbal.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1305,
+      "sha256": "f2ec14ae3a783df77b16b6e4abefe3362269decc28fa5837eea34acd1e95f6b2",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/crest-verbal.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1305,
+      "sha256": "f2ec14ae3a783df77b16b6e4abefe3362269decc28fa5837eea34acd1e95f6b2",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/crest-numerical.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1135,
+      "sha256": "e0b3dc52796f6e93239d498c1da3a1edc7ff8d31cb16aa172b59c50f4cf415c5",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/crest-numerical.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1135,
+      "sha256": "e0b3dc52796f6e93239d498c1da3a1edc7ff8d31cb16aa172b59c50f4cf415c5",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/crest-spatial.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1132,
+      "sha256": "4f2c7b6f35a13d4373e31d9d55b1b47757caa2389e94050c0ecfd5d4039b1811",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/crest-spatial.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1132,
+      "sha256": "4f2c7b6f35a13d4373e31d9d55b1b47757caa2389e94050c0ecfd5d4039b1811",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/crest-memory.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1208,
+      "sha256": "8f4944076b543b31aa6cd741fb7dd3411e4a575a4f5d195bf732d02b39aed296",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/crest-memory.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1208,
+      "sha256": "8f4944076b543b31aa6cd741fb7dd3411e4a575a4f5d195bf732d02b39aed296",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/crest-divergent.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1458,
+      "sha256": "07186b0b58fe2ff5b2582e296ae7802adb8c8c1980a119f4efd47d4b4c8c3bdb",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/crest-divergent.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1458,
+      "sha256": "07186b0b58fe2ff5b2582e296ae7802adb8c8c1980a119f4efd47d4b4c8c3bdb",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/crest-convergent.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1145,
+      "sha256": "fc7b7bcf35260cd09357aad8feab55f668cedddf7ca63856d55fbdc51e828d42",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/crest-convergent.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1145,
+      "sha256": "fc7b7bcf35260cd09357aad8feab55f668cedddf7ca63856d55fbdc51e828d42",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/crest-personality.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1263,
+      "sha256": "0dec0575ab065cd7b0fd39ede4bd7a4655e2711e31b5fd1058a0b18d9699646b",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/crest-personality.svg",
+      "width": 512,
+      "height": 512,
+      "mode": "SVG",
+      "bytes": 1263,
+      "sha256": "0dec0575ab065cd7b0fd39ede4bd7a4655e2711e31b5fd1058a0b18d9699646b",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/checker-weave.svg",
+      "width": 128,
+      "height": 128,
+      "mode": "SVG",
+      "bytes": 617,
+      "sha256": "55a03cd9ecd21229480b5fbc1feae5e1341898a46d2d8565639f09e7bdae4ebf",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/checker-weave.svg",
+      "width": 128,
+      "height": 128,
+      "mode": "SVG",
+      "bytes": 617,
+      "sha256": "55a03cd9ecd21229480b5fbc1feae5e1341898a46d2d8565639f09e7bdae4ebf",
+      "status": "original-integrated-for-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/lamp.svg",
+      "width": 768,
+      "height": 1024,
+      "mode": "SVG",
+      "bytes": 2295,
+      "sha256": "636abc75b3eda07ab1db008e3d83563e90830b2f2a118bf47cb486f20c587223",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/lamp.svg",
+      "width": 768,
+      "height": 1024,
+      "mode": "SVG",
+      "bytes": 2295,
+      "sha256": "636abc75b3eda07ab1db008e3d83563e90830b2f2a118bf47cb486f20c587223",
+      "status": "superseded-by-generated-raster-user-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/frame-cloud.svg",
+      "width": 512,
+      "height": 640,
+      "mode": "SVG",
+      "bytes": 1320,
+      "sha256": "c18b3a940c6147e4c62f8f4c068623bc3a9a1706816781d2f5cdf67e389f21a4",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/frame-cloud.svg",
+      "width": 512,
+      "height": 640,
+      "mode": "SVG",
+      "bytes": 1320,
+      "sha256": "c18b3a940c6147e4c62f8f4c068623bc3a9a1706816781d2f5cdf67e389f21a4",
+      "status": "superseded-by-generated-raster-user-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon/frame-stair.svg",
+      "width": 512,
+      "height": 640,
+      "mode": "SVG",
+      "bytes": 1290,
+      "sha256": "6bd00c0ee0bb40cb9c96be78b18efb672b36d17f67c4eeed6de6c9ccda68cb2e",
+      "status": "original-source",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "public/assets/salon/frame-stair.svg",
+      "width": 512,
+      "height": 640,
+      "mode": "SVG",
+      "bytes": 1290,
+      "sha256": "6bd00c0ee0bb40cb9c96be78b18efb672b36d17f67c4eeed6de6c9ccda68cb2e",
+      "status": "superseded-by-generated-raster-user-review",
+      "provenance": "assets/salon.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon-raster/lamp-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1477659,
+      "sha256": "a9b4f1c6dae8e6b211c5850e4d9ba051136853fe231523d3f585148bd6f525eb",
+      "status": "original-generated-source",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "public/assets/salon-raster/lamp-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1477659,
+      "sha256": "a9b4f1c6dae8e6b211c5850e4d9ba051136853fe231523d3f585148bd6f525eb",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon-raster/frame-stair-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 3036086,
+      "sha256": "a505ee97c2d430958df32960840ced4cf1e077828a26ccf6ca493af4926383d6",
+      "status": "original-generated-source",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "public/assets/salon-raster/frame-stair-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 3036086,
+      "sha256": "a505ee97c2d430958df32960840ced4cf1e077828a26ccf6ca493af4926383d6",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon-raster/frame-stone-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2925421,
+      "sha256": "a9373aa7c2fdf51c2300244a77c6dd51af37a4245a4fa6f760105b843dfae713",
+      "status": "original-generated-source",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "public/assets/salon-raster/frame-stone-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2925421,
+      "sha256": "a9373aa7c2fdf51c2300244a77c6dd51af37a4245a4fa6f760105b843dfae713",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon-raster/floor-woven.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 3999133,
+      "sha256": "1f1c41948ed2f883ecc45e65c1b4aeaf67b3b7b076a469239a9677dc45fc1131",
+      "status": "original-generated-source",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "public/assets/salon-raster/floor-woven.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 3999133,
+      "sha256": "1f1c41948ed2f883ecc45e65c1b4aeaf67b3b7b076a469239a9677dc45fc1131",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon-raster/card-frame.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 1637450,
+      "sha256": "943694b819838c62b5fba6db6c0ce3ab904ce5a2a4e457d414005bc0624fe417",
+      "status": "original-generated-source",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "public/assets/salon-raster/card-frame.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 1637450,
+      "sha256": "943694b819838c62b5fba6db6c0ce3ab904ce5a2a4e457d414005bc0624fe417",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon-raster/ivory-vellum.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 2589804,
+      "sha256": "8640f08d4ab246118df7da167b4b47d27eafd236aac39220ee541eb46cddd7dc",
+      "status": "original-generated-source",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "public/assets/salon-raster/ivory-vellum.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 2589804,
+      "sha256": "8640f08d4ab246118df7da167b4b47d27eafd236aac39220ee541eb46cddd7dc",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon-raster/frame-knight-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 3342762,
+      "sha256": "ab0643afa712e5910f900ec5d953fcefbe6a764a61342dbb0bf1277a4c5ea8f2",
+      "status": "original-generated-source",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "public/assets/salon-raster/frame-knight-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 3342762,
+      "sha256": "ab0643afa712e5910f900ec5d953fcefbe6a764a61342dbb0bf1277a4c5ea8f2",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "assets/sources/salon-raster/sculpture-stair-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2574210,
+      "sha256": "bbc7fe5f2af7331e9f8b8bc8f02783dcff3d732901c4a8c547167918da441d5c",
+      "status": "original-generated-source",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "public/assets/salon-raster/sculpture-stair-3d.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2574210,
+      "sha256": "bbc7fe5f2af7331e9f8b8bc8f02783dcff3d732901c4a8c547167918da441d5c",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/salon-raster.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/abstract.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1971988,
+      "sha256": "424c9ebf4e78cb42121a4959180384a3ac4ea553c151e9ce89c685f41b82f5f6",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/abstract.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1971988,
+      "sha256": "424c9ebf4e78cb42121a4959180384a3ac4ea553c151e9ce89c685f41b82f5f6",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/verbal.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 2224300,
+      "sha256": "21d94ef66aa8dd4edaab5847b71d3ad1210a8fd1ee63bfdd24888e5e8202ea30",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/verbal.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 2224300,
+      "sha256": "21d94ef66aa8dd4edaab5847b71d3ad1210a8fd1ee63bfdd24888e5e8202ea30",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/numerical.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1705997,
+      "sha256": "3ba7b5a116579eaa8d8bbd585c8596abe56a8ad9aee1f23d902a99ae5afae923",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/numerical.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1705997,
+      "sha256": "3ba7b5a116579eaa8d8bbd585c8596abe56a8ad9aee1f23d902a99ae5afae923",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/spatial.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1791124,
+      "sha256": "c97f3d9f953cd0b7ea8344b73de99b01ae425bd883e471d036f4c4518a377a98",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/spatial.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1791124,
+      "sha256": "c97f3d9f953cd0b7ea8344b73de99b01ae425bd883e471d036f4c4518a377a98",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/memory.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1197512,
+      "sha256": "68bec29b3ee397eb12a822298a3c26f694c03dcfbf7cb932139859e53e56f775",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/memory.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1197512,
+      "sha256": "68bec29b3ee397eb12a822298a3c26f694c03dcfbf7cb932139859e53e56f775",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/divergent.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 2209132,
+      "sha256": "a6c0bf9ab09d3195a367f72a7587dc44c63c06012fb77e85672256970376b85a",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/divergent.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 2209132,
+      "sha256": "a6c0bf9ab09d3195a367f72a7587dc44c63c06012fb77e85672256970376b85a",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/convergent.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1598739,
+      "sha256": "9e5cae4f0ddddbae8b4d1cd4a581e725fddfbe364add7a10a198ab6e0f9d668e",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/convergent.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1598739,
+      "sha256": "9e5cae4f0ddddbae8b4d1cd4a581e725fddfbe364add7a10a198ab6e0f9d668e",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/personality.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1652827,
+      "sha256": "6cebcca2b324aacfdcda12eed0a8eeab2191419c6f564e9cacd8d7a6e04dcf6f",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/personality.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1652827,
+      "sha256": "6cebcca2b324aacfdcda12eed0a8eeab2191419c6f564e9cacd8d7a6e04dcf6f",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "assets/sources/room-art/corner.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 695411,
+      "sha256": "cb2213976f22d2a1adba3e762eed11ba7e3cfdf2fe7fd7205f96f41b86d511f3",
+      "status": "original-generated-source",
+      "provenance": "assets/room-art.provenance.json"
+    },
+    {
+      "path": "public/assets/room-art/corner.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 695411,
+      "sha256": "cb2213976f22d2a1adba3e762eed11ba7e3cfdf2fe7fd7205f96f41b86d511f3",
+      "status": "generated-integrated-for-review",
+      "provenance": "assets/room-art.provenance.json"
     }
   ]
 }

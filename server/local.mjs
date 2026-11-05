@@ -3,12 +3,12 @@ import {readFile,stat} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 const root=fileURLToPath(new URL('../',import.meta.url));
-const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.png':'image/png','.mp3':'audio/mpeg','.svg':'image/svg+xml'};
+const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.png':'image/png','.mp3':'audio/mpeg','.svg':'image/svg+xml','.json':'application/json; charset=utf-8','.bin':'application/octet-stream'};
 const candidates=Object.fromEntries(['front','back','left','right'].map(d=>[`/preview/walk-${d}.png`,`assets/staging/character/walk/walk-${d}.png`]));
 http.createServer(async(req,res)=>{
  try{
   const url=new URL(req.url,'http://localhost'); const name=decodeURIComponent(url.pathname);
-  let relative=name==='/'?'public/index.html':candidates[name]??(name==='/preview/music.mp3'?'assets/sources/audio/the-case-of-the-missing-note.mp3':name.startsWith('/assets/')?'public'+name:name.startsWith('/src/')?name.slice(1):null);
+  let relative=name==='/'?'public/index.html':candidates[name]??(name==='/preview/music.mp3'?'assets/sources/audio/the-case-of-the-missing-note.mp3':name.startsWith('/assets/')||name.startsWith('/data/')?'public'+name:name.startsWith('/src/')?name.slice(1):null);
   if(!relative||!['GET','HEAD'].includes(req.method)){res.writeHead(404);return res.end();}
   const file=path.resolve(root,relative);
   if(!file.startsWith(root)||relative.split(/[\\/]/).includes('..')){res.writeHead(403);return res.end();}
